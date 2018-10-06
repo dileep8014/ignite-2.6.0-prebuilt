@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+  <if>
+    <available file="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/test-classes" type="dir"/>
+    <then>
+      <copy todir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package/lib">
+        <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target">
+          <include name="*.jar"/>
+        </fileset>
+      </copy>
+      <jar destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package/lib/ignite-cassandra-store-2.6.0-tests.jar">
+        <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/test-classes">
+          <include name="**/*.class"/>
+        </fileset>
+      </jar>
+      <copy todir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package/settings">
+        <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/test-classes">
+          <include name="**/*.properties"/>
+          <include name="**/*.xml"/>
+        </fileset>
+      </copy>
+      <copy todir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package">
+        <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/src/test/java/../scripts">
+          <include name="**/*"/>
+        </fileset>
+      </copy>
+      <fixcrlf eol="lf" srcdir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package" eof="remove">
+        <include name="*.sh"/>
+      </fixcrlf>
+      <copy todir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package">
+        <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/src/test/java/..">
+          <include name="bootstrap/**"/>
+        </fileset>
+      </copy>
+      <fixcrlf eol="lf" srcdir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package/bootstrap" eof="remove">
+        <include name="**"/>
+      </fixcrlf>
+      <zip destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/ignite-cassandra-tests-2.6.0.zip" compress="true" whenempty="create" level="9" createUnicodeExtraFields="not-encodeable" encoding="UTF-8" useLanguageEncodingFlag="true">
+        <zipfileset prefix="ignite-cassandra-tests" dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package">
+          <exclude name="**/*.sh"/>
+        </zipfileset>
+        <zipfileset prefix="ignite-cassandra-tests" filemode="555" dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/cassandra/store/target/tests-package">
+          <include name="**/*.sh"/>
+        </zipfileset>
+      </zip>
+    </then>
+  </if>
+</target>
+</project>

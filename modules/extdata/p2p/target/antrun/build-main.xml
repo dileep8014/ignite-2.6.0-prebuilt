@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef classname="org.apache.ignite.util.antgar.IgniteDeploymentGarAntTask" name="gar"/>
+  <gar basedir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/p2p/target/classes" destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/p2p/target/deploy/p2p.gar" descrdir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/p2p/META-INF"/>
+</target>
+</project>

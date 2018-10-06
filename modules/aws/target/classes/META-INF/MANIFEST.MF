@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729732148
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-aws
+Bundle-SymbolicName: org.apache.ignite.ignite-aws
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.spi.checkpoint.s3;uses:="com.amazonaws
+ ,com.amazonaws.auth,org.apache.ignite.mxbean,org.apache.ignite.spi,org.
+ apache.ignite.spi.checkpoint";version="2.6.0",org.apache.ignite.spi.dis
+ covery.tcp.ipfinder.s3;uses:="com.amazonaws,com.amazonaws.auth,org.apac
+ he.ignite.spi,org.apache.ignite.spi.discovery.tcp.ipfinder";version="2.
+ 6.0",org.apache.ignite.spi.discovery.tcp.ipfinder.elb;uses:="com.amazon
+ aws.auth,org.apache.ignite.spi,org.apache.ignite.spi.discovery.tcp.ipfi
+ nder";version="2.6.0"
+Import-Package: com.amazonaws,com.amazonaws.auth,com.amazonaws.client.bu
+ ilder,com.amazonaws.services.ec2,com.amazonaws.services.ec2.model,com.a
+ mazonaws.services.elasticloadbalancing,com.amazonaws.services.elasticlo
+ adbalancing.model,com.amazonaws.services.s3,com.amazonaws.services.s3.m
+ odel,com.amazonaws.util,org.apache.ignite;version="[2.6,3)",org.apache.
+ ignite.internal;version="[2.6,3)",org.apache.ignite.internal.util;versi
+ on="[2.6,3)",org.apache.ignite.internal.util.tostring;version="[2.6,3)"
+ ,org.apache.ignite.internal.util.typedef;version="[2.6,3)",org.apache.i
+ gnite.internal.util.typedef.internal;version="[2.6,3)",org.apache.ignit
+ e.mxbean;version="[2.6,3)",org.apache.ignite.resources;version="[2.6,3)
+ ",org.apache.ignite.spi;version="[2.6,3)",org.apache.ignite.spi.checkpo
+ int;version="[2.6,3)",org.apache.ignite.spi.discovery.tcp.ipfinder;vers
+ ion="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

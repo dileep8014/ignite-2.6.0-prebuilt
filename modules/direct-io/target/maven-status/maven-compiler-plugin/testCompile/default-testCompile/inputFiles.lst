@@ -1,0 +1,5 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/direct-io/src/test/java/org/apache/ignite/testsuites/IgnitePdsNativeIoTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/direct-io/src/test/java/org/apache/ignite/internal/processors/cache/persistence/IgniteNativeIoPdsRecoveryAfterFileCorruptionTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/direct-io/src/test/java/org/apache/ignite/testsuites/IgnitePdsReplacementNativeIoTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/direct-io/src/test/java/org/apache/ignite/internal/processors/cache/persistence/file/IgniteNativeIoWithNoPersistenceTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/direct-io/src/test/java/org/apache/ignite/testsuites/IgnitePdsNativeIoTestSuite2.java

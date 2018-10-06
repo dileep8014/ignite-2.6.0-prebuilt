@@ -1,0 +1,168 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+ignite-cloud
+
+
+From: '99 Software Foundation' (http://www.99soft.org/)
+  - 99soft :: Rocoto (http://99soft.github.com/rocoto/) org.99soft.guice:rocoto:bundle:6.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'an unknown organization'
+  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+    License: Public Domain 
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:bundle:16.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OkHttp (https://github.com/square/okhttp/okhttp) com.squareup.okhttp:okhttp:jar:2.2.0
+    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Okio (https://github.com/square/okio/okio) com.squareup.okio:okio:jar:1.2.0
+    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+  - JSR107 API and SPI (https://github.com/jsr107/jsr107spec) javax.cache:cache-api:jar:1.0.0
+    License: JSR-000107 JCACHE 2.9 Public Review - Updated Specification
+                License  (https://raw.github.com/jsr107/jsr107spec/master/LICENSE.txt)
+  - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Native Access (https://github.com/twall/jna) net.java.dev.jna:jna:jar:4.1.0
+    License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: ASL, version 2  (http://www.apache.org/licenses/)
+  - Java Native Access Platform (https://github.com/twall/jna) net.java.dev.jna:jna-platform:jar:4.1.0
+    License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: ASL, version 2  (http://www.apache.org/licenses/)
+  - sshj (http://github.com/shikhar/sshj) net.schmizz:sshj:bundle:0.8.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (http://www.bouncycastle.org/java.html) org.bouncycastle:bcpkix-jdk15on:jar:1.49
+    License: Bouncy Castle Licence  (http://www.bouncycastle.org/licence.html)
+  - Bouncy Castle Provider (http://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-ext-jdk15on:jar:1.49
+    License: Bouncy Castle Licence  (http://www.bouncycastle.org/licence.html)
+  - ignite-shmem (http://www.gridgain.com) org.gridgain:ignite-shmem:jar:1.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - IntelliJ IDEA Annotations (http://www.jetbrains.org) org.jetbrains:annotations:jar:13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - SnakeYAML (http://www.snakeyaml.org) org.yaml:snakeyaml:bundle:1.17
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Google, Inc.' (http://www.google.com)
+  - Gson (http://code.google.com/p/google-gson/) com.google.code.gson:gson:jar:2.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google Guice - Core Library (http://code.google.com/p/google-guice/guice/) com.google.inject:guice:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google Guice - Extensions - AssistedInject (http://code.google.com/p/google-guice/extensions-parent/guice-assistedinject/) com.google.inject.extensions:guice-assistedinject:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google Guice - Extensions - MultiBindings (http://code.google.com/p/google-guice/extensions-parent/guice-multibindings/) com.google.inject.extensions:guice-multibindings:jar:3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JCraft,Inc.' (http://www.jcraft.com/)
+  - a connector factory (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.connector-factory/) com.jcraft:jsch.agentproxy.connector-factory:bundle:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+  - jsch-agent-proxy core library (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.core/) com.jcraft:jsch.agentproxy.core:bundle:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+  - a connector for Pageant using JNA (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.pageant/) com.jcraft:jsch.agentproxy.pageant:bundle:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+  - a connector for ssh-agent (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.sshagent/) com.jcraft:jsch.agentproxy.sshagent:bundle:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+  - a library to use jsch-agent-proxy with sshj (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.sshj/) com.jcraft:jsch.agentproxy.sshj:jar:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+  - an implementation of USocketFactory using JNA (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.usocket-jna/) com.jcraft:jsch.agentproxy.usocket-jna:bundle:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+  - an implementation of USocketFactory using netcat (http://www.jcraft.com/jsch-agent-proxy/jsch.agentproxy.usocket-nc/) com.jcraft:jsch.agentproxy.usocket-nc:bundle:0.0.8
+    License: Revised BSD  (http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.2
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Sun Microsystems, Inc' (http://www.sun.com/)
+  - jsr311-api (https://jsr311.dev.java.net) javax.ws.rs:jsr311-api:jar:1.1.1
+    License: CDDL License  (http://www.opensource.org/licenses/cddl1.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - ignite-core (http://ignite.apache.org) org.apache.ignite:ignite-core:jar:2.6.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - allcompute (http://jclouds.apache.org/jclouds-allcompute/) org.apache.jclouds:jclouds-allcompute:jar:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds compute core (http://jclouds.apache.org/jclouds-compute/) org.apache.jclouds:jclouds-compute:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Components Core (http://jclouds.apache.org/jclouds-core/) org.apache.jclouds:jclouds-core:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds script builder (http://jclouds.apache.org/jclouds-scriptbuilder/) org.apache.jclouds:jclouds-scriptbuilder:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds bring your own node provider (http://jclouds.apache.org/byon/) org.apache.jclouds.api:byon:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds CloudSigma API (http://jclouds.apache.org/cloudsigma/) org.apache.jclouds.api:cloudsigma:bundle:1.8.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds cloudstack core (http://jclouds.apache.org/cloudstack/) org.apache.jclouds.api:cloudstack:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds docker API (http://jclouds.apache.org/docker/) org.apache.jclouds.api:docker:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds ec2 api (http://jclouds.apache.org/ec2/) org.apache.jclouds.api:ec2:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds elasticstack core (http://jclouds.apache.org/elasticstack/) org.apache.jclouds.api:elasticstack:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds OAuth core (http://jclouds.apache.org/oauth/) org.apache.jclouds.api:oauth:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds openstack-keystone api (http://jclouds.apache.org/openstack-keystone/) org.apache.jclouds.api:openstack-keystone:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache jclouds :: OpenStack :: Nova API (http://jclouds.apache.org/openstack-nova/) org.apache.jclouds.api:openstack-nova:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds openstack-nova-ec2 api (http://jclouds.apache.org/openstack-nova-ec2/) org.apache.jclouds.api:openstack-nova-ec2:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds rackspace cloudidentity api (http://jclouds.apache.org/rackspace-cloudidentity/) org.apache.jclouds.api:rackspace-cloudidentity:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds sts api (http://jclouds.apache.org/sts/) org.apache.jclouds.api:sts:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Google Cloud Core (http://jclouds.apache.org/googlecloud/) org.apache.jclouds.common:googlecloud:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds bouncycastle EncryptionService Module (http://jclouds.apache.org/jclouds-bouncycastle/) org.apache.jclouds.driver:jclouds-bouncycastle:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds OkHttp Driver (http://jclouds.apache.org/jclouds-okhttp/) org.apache.jclouds.driver:jclouds-okhttp:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds SLF4J Logging Module (http://jclouds.apache.org/jclouds-slf4j/) org.apache.jclouds.driver:jclouds-slf4j:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds sshj ssh client (http://jclouds.apache.org/jclouds-sshj/) org.apache.jclouds.driver:jclouds-sshj:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds docker API (http://jclouds.apache.org/jclouds-labs/docker/) org.apache.jclouds.labs:docker:bundle:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Google Compute Engine provider (http://jclouds.apache.org/jclouds-labs-google/google-compute-engine/) org.apache.jclouds.labs:google-compute-engine:jar:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Google Cloud Core (http://jclouds.apache.org/jclouds-labs-google/googlecloud/) org.apache.jclouds.labs:googlecloud:jar:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds OAuth core (http://jclouds.apache.org/jclouds-labs/oauth/) org.apache.jclouds.labs:oauth:jar:1.9.3
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Amazon EC2 provider (http://jclouds.apache.org/aws-ec2/) org.apache.jclouds.provider:aws-ec2:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds CloudSigma provider (http://jclouds.apache.org/cloudsigma-zrh/) org.apache.jclouds.provider:cloudsigma-zrh:bundle:1.8.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds DigitalOcean v2 API Provider (http://jclouds.apache.org/digitalocean2/) org.apache.jclouds.provider:digitalocean2:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds ElasticHosts BlueSquare London provider (http://jclouds.apache.org/elastichosts-lon-b/) org.apache.jclouds.provider:elastichosts-lon-b:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds ElasticHosts Peer1 London provider (http://jclouds.apache.org/elastichosts-lon-p/) org.apache.jclouds.provider:elastichosts-lon-p:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds ElasticHosts Peer1 San Antonio provider (http://jclouds.apache.org/elastichosts-sat-p/) org.apache.jclouds.provider:elastichosts-sat-p:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Go2Cloud Johannesburg1 provider (http://jclouds.apache.org/go2cloud-jhb1/) org.apache.jclouds.provider:go2cloud-jhb1:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds GoGrid provider (http://jclouds.apache.org/gogrid/) org.apache.jclouds.provider:gogrid:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Google Compute Engine provider (http://jclouds.apache.org/google-compute-engine/) org.apache.jclouds.provider:google-compute-engine:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Open Hosting East1 provider (http://jclouds.apache.org/openhosting-east1/) org.apache.jclouds.provider:openhosting-east1:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds ProfitBricks api (http://jclouds.apache.org/profitbricks/) org.apache.jclouds.provider:profitbricks:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Rackspace Next Generation Cloud Servers provider (http://jclouds.apache.org/rackspace-cloudservers-uk/) org.apache.jclouds.provider:rackspace-cloudservers-uk:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Rackspace Next Generation Cloud Servers US provider (http://jclouds.apache.org/rackspace-cloudservers-us/) org.apache.jclouds.provider:rackspace-cloudservers-us:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds Serverlove Manchester provider (http://jclouds.apache.org/serverlove-z1-man/) org.apache.jclouds.provider:serverlove-z1-man:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds SkaliCloud Malaysia provider (http://jclouds.apache.org/skalicloud-sdg-my/) org.apache.jclouds.provider:skalicloud-sdg-my:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jclouds SoftLayer core (http://jclouds.apache.org/softlayer/) org.apache.jclouds.provider:softlayer:bundle:2.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

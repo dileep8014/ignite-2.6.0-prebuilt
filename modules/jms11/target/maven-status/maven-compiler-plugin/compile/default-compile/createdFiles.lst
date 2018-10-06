@@ -1,0 +1,6 @@
+org/apache/ignite/stream/jms11/JmsStreamer$1.class
+org/apache/ignite/stream/jms11/JmsStreamer$IgniteJmsMessageListener$1.class
+org/apache/ignite/stream/jms11/MessageTransformer.class
+org/apache/ignite/stream/jms11/JmsStreamer$IgniteJmsMessageListener$2.class
+org/apache/ignite/stream/jms11/JmsStreamer.class
+org/apache/ignite/stream/jms11/JmsStreamer$IgniteJmsMessageListener.class

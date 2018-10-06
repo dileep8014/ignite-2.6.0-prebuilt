@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729419740
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-urideploy
+Bundle-SymbolicName: org.apache.ignite.ignite-urideploy
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.spi.deployment.uri;uses:="org.apache.i
+ gnite.mxbean,org.apache.ignite.spi,org.apache.ignite.spi.deployment,org
+ .apache.ignite.spi.deployment.uri.scanners";version="2.6.0",org.apache.
+ ignite.spi.deployment.uri.scanners.http;uses:="org.apache.ignite.spi.de
+ ployment.uri.scanners";version="2.6.0",org.apache.ignite.spi.deployment
+ .uri.scanners.file;uses:="org.apache.ignite.spi.deployment.uri.scanners
+ ";version="2.6.0",org.apache.ignite.spi.deployment.uri.scanners;uses:="
+ org.apache.ignite";version="2.6.0"
+Import-Package: javax.net.ssl,javax.security.auth.x500,org.apache.common
+ s.codec.binary;version="[1.11,2)",org.apache.commons.codec.digest;versi
+ on="[1.11,2)",org.apache.ignite;version="[2.6,3)",org.apache.ignite.com
+ pute;version="[2.6,3)",org.apache.ignite.configuration;version="[2.6,3)
+ ",org.apache.ignite.internal;version="[2.6,3)",org.apache.ignite.intern
+ al.util;version="[2.6,3)",org.apache.ignite.internal.util.lang;version=
+ "[2.6,3)",org.apache.ignite.internal.util.tostring;version="[2.6,3)",or
+ g.apache.ignite.internal.util.typedef;version="[2.6,3)",org.apache.igni
+ te.internal.util.typedef.internal;version="[2.6,3)",org.apache.ignite.l
+ ang;version="[2.6,3)",org.apache.ignite.mxbean;version="[2.6,3)",org.ap
+ ache.ignite.resources;version="[2.6,3)",org.apache.ignite.spi;version="
+ [2.6,3)",org.apache.ignite.spi.deployment;version="[2.6,3)",org.apache.
+ ignite.spi.deployment.uri.scanners,org.apache.ignite.spi.deployment.uri
+ .scanners.file,org.apache.ignite.spi.deployment.uri.scanners.http,org.s
+ pringframework.beans,org.springframework.beans.factory.xml,org.springfr
+ amework.core.io,org.w3c.dom,org.w3c.tidy
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

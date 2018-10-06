@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538730190421
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-osgi
+Bundle-SymbolicName: org.apache.ignite.ignite-osgi
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.osgi.classloaders;uses:="org.apache.ig
+ nite.internal.util.tostring,org.osgi.framework";version="2.6.0",org.apa
+ che.ignite.osgi;uses:="org.apache.ignite,org.apache.ignite.configuratio
+ n,org.apache.ignite.osgi.classloaders,org.osgi.framework";version="2.6.
+ 0"
+Fragment-Host: org.apache.ignite.ignite-core
+Import-Package: org.apache.ignite;version="[2.6,3)",org.apache.ignite.co
+ nfiguration;version="[2.6,3)",org.apache.ignite.internal.util;version="
+ [2.6,3)",org.apache.ignite.internal.util.tostring;version="[2.6,3)",org
+ .apache.ignite.internal.util.typedef.internal;version="[2.6,3)",org.apa
+ che.ignite.osgi.classloaders,org.osgi.framework;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

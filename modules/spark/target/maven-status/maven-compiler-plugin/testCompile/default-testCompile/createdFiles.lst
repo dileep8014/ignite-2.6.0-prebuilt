@@ -1,0 +1,15 @@
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest$4.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest$PairToValueFunction.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest$3.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest.class
+org/apache/ignite/testsuites/IgniteRDDTestSuite.class
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest$IgniteConfigProvider.class
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest$PairToValueFunction.class
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest$2.class
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest$IgniteConfigProvider.class
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest$1.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest$1.class
+org/apache/ignite/spark/JavaEmbeddedIgniteRDDSelfTest$3.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest$4.class
+org/apache/ignite/spark/JavaStandaloneIgniteRDDSelfTest$2.class

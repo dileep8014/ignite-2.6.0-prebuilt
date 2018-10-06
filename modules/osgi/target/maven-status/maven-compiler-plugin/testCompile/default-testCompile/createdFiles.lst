@@ -1,0 +1,7 @@
+org/apache/ignite/osgi/activators/BasicIgniteTestActivator.class
+org/apache/ignite/osgi/activators/TestOsgiFlags.class
+org/apache/ignite/osgi/IgniteKarafFeaturesInstallationTest.class
+org/apache/ignite/osgi/IgniteOsgiTestSuite.class
+org/apache/ignite/osgi/activators/TestOsgiFlagsImpl.class
+org/apache/ignite/osgi/AbstractIgniteKarafTest.class
+org/apache/ignite/osgi/IgniteOsgiServiceTest.class

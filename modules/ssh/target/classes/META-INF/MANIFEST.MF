@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729685276
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-ssh
+Bundle-SymbolicName: org.apache.ignite.ignite-ssh
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Fragment-Host: org.apache.ignite.ignite-core
+Import-Package: com.jcraft.jsch,org.apache.ignite;version="[2.6,3)",org.
+ apache.ignite.cluster;version="[2.6,3)",org.apache.ignite.internal;vers
+ ion="[2.6,3)",org.apache.ignite.internal.cluster;version="[2.6,3)",org.
+ apache.ignite.internal.processors.timeout;version="[2.6,3)",org.apache.
+ ignite.internal.util;version="[2.6,3)",org.apache.ignite.internal.util.
+ typedef;version="[2.6,3)",org.apache.ignite.internal.util.typedef.inter
+ nal;version="[2.6,3)",org.apache.ignite.resources;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

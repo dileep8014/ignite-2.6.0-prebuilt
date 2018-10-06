@@ -1,0 +1,9 @@
+org/apache/ignite/internal/processors/cache/persistence/file/AlignedBuffersDirectFileIOFactory.class
+org/apache/ignite/internal/processors/cache/persistence/file/LinuxNativeIoPluginProvider$1.class
+org/apache/ignite/internal/processors/cache/persistence/file/LinuxNativeIoPluginProvider.class
+org/apache/ignite/internal/processors/cache/persistence/file/LinuxNativeIoPluginProvider$2.class
+org/apache/ignite/internal/processors/cache/persistence/file/LinuxNativeIoPlugin.class
+org/apache/ignite/internal/processors/cache/persistence/file/AlignedBuffersDirectFileIO.class
+org/apache/ignite/internal/processors/cache/persistence/file/IgniteNativeIoLib.class
+org/apache/ignite/internal/processors/cache/persistence/file/AlignedBuffers.class
+org/apache/ignite/internal/processors/cache/persistence/file/AlignedBuffersDirectFileIOFactory$1.class

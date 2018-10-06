@@ -1,0 +1,12 @@
+org/apache/ignite/logger/log4j/Log4JLogger.class
+org/apache/ignite/logger/log4j/Log4jFileAware.class
+org/apache/ignite/logger/log4j/Log4JLogger$3.class
+org/apache/ignite/logger/log4j/Log4JLogger$2.class
+org/apache/ignite/logger/log4j/Log4JLogger$5.class
+org/apache/ignite/logger/log4j/Log4jNodeIdFilePath.class
+org/apache/ignite/logger/log4j/Log4JExternallyRolledFileAppender.class
+org/apache/ignite/logger/log4j/Log4JLogger$1.class
+org/apache/ignite/logger/log4j/Log4JFileAppender.class
+org/apache/ignite/logger/log4j/Log4JDailyRollingFileAppender.class
+org/apache/ignite/logger/log4j/Log4jRollingFileAppender.class
+org/apache/ignite/logger/log4j/Log4JLogger$4.class

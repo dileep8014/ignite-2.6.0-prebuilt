@@ -1,0 +1,598 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>cache - Ignite Console Visor - org.apache.ignite.visor.commands.cache</title>
+          <meta name="description" content="cache - Ignite Console Visor - org.apache.ignite.visor.commands.cache" />
+          <meta name="keywords" content="cache Ignite Console Visor org.apache.ignite.visor.commands.cache" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../index.html';
+            var hash = 'org.apache.ignite.visor.commands.cache.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../../package.html" class="extype" name="org">org</a>.<a href="../../../../package.html" class="extype" name="org.apache">apache</a>.<a href="../../../package.html" class="extype" name="org.apache.ignite">ignite</a>.<a href="../../package.html" class="extype" name="org.apache.ignite.visor">visor</a>.<a href="../package.html" class="extype" name="org.apache.ignite.visor.commands">commands</a></p>
+        <h1>cache</h1><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cache</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.apache.ignite.visor.commands.cache.VisorCacheClearCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheClearCommandextendsAnyRef"></a>
+      <a id="VisorCacheClearCommand:VisorCacheClearCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheClearCommand.html"><span class="name">VisorCacheClearCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheClearCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'clear' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'clear' command implementation.</p><h4>Help</h4><pre>+------------------------------------------------------------+
+| cache -clear | Clears all entries from cache on all nodes. |
++------------------------------------------------------------+</pre><h6>Specification</h6><pre>cache -clear
+cache -clear -c=&lt;cache-name&gt;</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.
+    If not specified, default cache will be cleared.</pre><h6>Examples</h6><pre>cache -clear
+    Clears interactively selected cache.
+cache -clear -c=cache
+    Clears cache <span class="kw">with</span> name <span class="lit">'cache'</span>.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheCommandextendsVisorConsoleCommand"></a>
+      <a id="VisorCacheCommand:VisorCacheCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheCommand.html"><span class="name">VisorCacheCommand</span></a><span class="result"> extends <a href="../common/VisorConsoleCommand.html" class="extype" name="org.apache.ignite.visor.commands.common.VisorConsoleCommand">VisorConsoleCommand</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheCommandextendsVisorConsoleCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'cache' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'cache' command implementation.</p><h4>Help</h4><pre>+-------------------------------------------------------------------------------------------+
+| cache            | Prints statistics about caches from specified node on the entire grid. |
+|                  | Output sorting can be specified in arguments.                          |
+|                  |                                                                        |
+|                  | Output abbreviations:                                                  |
+|                  |     #   Number of nodes.                                               |
+|                  |     H/h Number of cache hits.                                          |
+|                  |     M/m Number of cache misses.                                        |
+|                  |     R/r Number of cache reads.                                         |
+|                  |     W/w Number of cache writes.                                        |
++-------------------------------------------------------------------------------------------+
+| cache -clear     | Clears all entries from cache on all nodes.                            |
++-------------------------------------------------------------------------------------------+
+| cache -scan      | <span class="std">List</span> all entries in cache <span class="kw">with</span> specified name.                         |
++-------------------------------------------------------------------------------------------+
+| cache -stop      | Stop cache <span class="kw">with</span> specified name.                                        |
++-------------------------------------------------------------------------------------------+
+| cache -reset     | Reset metrics <span class="kw">for</span> cache <span class="kw">with</span> specified name.                           |
++-------------------------------------------------------------------------------------------+
+| cache -rebalance | Re-balance partitions <span class="kw">for</span> cache <span class="kw">with</span> specified name.                   |
++-------------------------------------------------------------------------------------------+
+| cache -slp       | Show list of lost partitions <span class="kw">for</span> specified cache.                      |
++-------------------------------------------------------------------------------------------+
+| cache -rlp       | Reset lost partitions <span class="kw">for</span> specified cache.                             |
++-------------------------------------------------------------------------------------------+</pre><h6>Specification</h6><pre>cache {-system}
+cache -i {-system}
+cache {-c=&lt;cache-name&gt;} {-id=&lt;node-id&gt;|id8=&lt;node-id8&gt;} {-s=hi|mi|rd|wr|cn} {-a} {-r} {-system}
+cache -clear {-c=&lt;cache-name&gt;}
+cache -scan -c=&lt;cache-name&gt; {-near} {-id=&lt;node-id&gt;|id8=&lt;node-id8&gt;} {-p=&lt;page size&gt;} {-system}
+cache -stop -c=&lt;cache-name&gt;
+cache -reset -c=&lt;cache-name&gt;
+cache -rebalance -c=&lt;cache-name&gt;
+cache -slp -c=&lt;cache-name&gt;
+cache -rlp -c=&lt;cache-name&gt;</pre><h6>Arguments</h6><pre>-id8=&lt;node-id&gt;
+    ID8 of the node to get cache statistics from.
+    Note that either <span class="lit">'-id8'</span> or <span class="lit">'-id'</span> should be specified.
+    You can also use <span class="lit">'@n0'</span> ... <span class="lit">'@nn'</span> variables as a shortcut <span class="kw">for</span> &lt;node-id8&gt;.
+    To specify oldest node on the same host as visor use variable <span class="lit">'@nl'</span>.
+    To specify oldest node on other hosts that are not running visor use variable <span class="lit">'@nr'</span>.
+    If neither is specified statistics will be gathered from all nodes.
+-id=&lt;node-id&gt;
+    Full ID of the node to get cache statistics from.
+    Either <span class="lit">'-id8'</span> or <span class="lit">'-id'</span> can be specified.
+    If neither is specified statistics will be gathered from all nodes.
+-c=&lt;cache-name&gt;
+    Name of the cache.
+-s=hi|mi|rd|wr|cn
+    Defines sorting <span class="kw">type</span>. Sorted by:
+       hi Hits.
+       mi Misses.
+       rd Reads.
+       wr Writes.
+       cn Cache name.
+    If not specified - default sorting is <span class="lit">'cn'</span>.
+-i
+    Interactive mode.
+    User can interactively select node <span class="kw">for</span> cache statistics.
+-r
+    Defines <span class="kw">if</span> sorting should be reversed.
+    Can be specified only <span class="kw">with</span> <span class="lit">'-s'</span> argument.
+-a
+    Prints details statistics about each cache.
+    By default only aggregated summary is printed.
+-system
+    Enable showing of information about system caches.
+-clear
+    Clears cache.
+-scan
+    Prints list of all entries from cache.
+-near
+    Prints list of all entries from near cache of cache.
+-stop
+     Stop cache <span class="kw">with</span> specified name.
+-reset
+     Reset metrics <span class="kw">for</span> cache <span class="kw">with</span> specified name.
+-rebalance
+     Re-balance partitions <span class="kw">for</span> cache <span class="kw">with</span> specified name.
+-slp
+     Show list of lost partitions <span class="kw">for</span> specified cache.
+-rlp
+     Reset lost partitions <span class="kw">for</span> specified cache.
+-p=&lt;page size&gt;
+    Number of <span class="kw">object</span> to fetch from cache at once.
+    Valid range from <span class="num">1</span> to <span class="num">100.</span>
+    By default page size is <span class="num">25.</span></pre><h6>Examples</h6><pre>cache
+    Prints summary statistics about all no system caches.
+cache -system
+    Prints summary statistics about all caches.
+cache -id8=<span class="num">12345678</span> -s=hi -r
+    Prints summary statistics about caches from node <span class="kw">with</span> specified id8
+    sorted by number of hits in reverse order.
+cache -i
+    Prints cache statistics <span class="kw">for</span> interactively selected node.
+cache -s=hi -r -a
+    Prints detailed statistics about all caches sorted by number of hits in reverse order.
+cache -clear
+    Clears interactively selected cache.
+cache -clear -c=cache
+    Clears cache <span class="kw">with</span> name <span class="lit">'cache'</span>.
+cache -scan
+    Prints list entries from interactively selected cache.
+cache -scan -c=cache
+    Prints list entries from cache <span class="kw">with</span> name <span class="lit">'cache'</span> from all nodes <span class="kw">with</span> <span class="kw">this</span> cache.
+cache -scan -c=@c0 -p=<span class="num">50</span>
+    Prints list entries from cache <span class="kw">with</span> name taken from <span class="lit">'c0'</span> memory variable
+    <span class="kw">with</span> page of <span class="num">50</span> items from all nodes <span class="kw">with</span> <span class="kw">this</span> cache.
+cache -scan -c=cache -id8=<span class="num">12345678</span>
+    Prints list entries from cache <span class="kw">with</span> name <span class="lit">'cache'</span> and node '<span class="num">12345678</span>' ID8.
+cache -scan -c=cache -near -id8=<span class="num">12345678</span>
+    Prints list entries from near cache of cache <span class="kw">with</span> name <span class="lit">'cache'</span> and node '<span class="num">12345678</span>' ID8.
+cache -stop -c=cache
+    Stops cache <span class="kw">with</span> name <span class="lit">'cache'</span>.
+cache -reset -c=cache
+    Reset metrics <span class="kw">for</span> cache <span class="kw">with</span> name <span class="lit">'cache'</span>.
+cache -rebalance -c=cache
+    Re-balance partitions <span class="kw">for</span> cache <span class="kw">with</span> name <span class="lit">'cache'</span>.
+cache -slp -c=cache
+    Show list of lost partitions <span class="kw">for</span> cache <span class="kw">with</span> name <span class="lit">'cache'</span>.
+cache -rlp -c=cache
+    Reset lost partitions <span class="kw">for</span> cache <span class="kw">with</span> name <span class="lit">'cache'</span>.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheLostPartitionsCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheLostPartitionsCommandextendsAnyRef"></a>
+      <a id="VisorCacheLostPartitionsCommand:VisorCacheLostPartitionsCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheLostPartitionsCommand.html"><span class="name">VisorCacheLostPartitionsCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheLostPartitionsCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'lost partitions' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'lost partitions' command implementation.</p><h6>Specification</h6><pre>cache -slp -c=&lt;cache name&gt;</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.</pre><h6>Examples</h6><pre>cache -slp -c=cache
+    Show list of lost partitions <span class="kw">for</span> cache <span class="kw">with</span> name <span class="lit">'cache'</span>.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheModifyCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheModifyCommandextendsVisorConsoleCommand"></a>
+      <a id="VisorCacheModifyCommand:VisorCacheModifyCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheModifyCommand.html"><span class="name">VisorCacheModifyCommand</span></a><span class="result"> extends <a href="../common/VisorConsoleCommand.html" class="extype" name="org.apache.ignite.visor.commands.common.VisorConsoleCommand">VisorConsoleCommand</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheModifyCommandextendsVisorConsoleCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'modify' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'modify' command implementation.</p><h4>Help</h4><pre>+-----------------------------------------------------------------------------------------+
+| modify -put    | Put custom value into cache.                                           |
++-----------------------------------------------------------------------------------------+
+| modify -get    | Get value <span class="kw">with</span> specified key from cache.                               |
++-----------------------------------------------------------------------------------------+
+| modify -remove | Remove value <span class="kw">with</span> specified key from cache.                            |
++-----------------------------------------------------------------------------------------+</pre><h6>Specification</h6><pre>modify -put -c=&lt;cache-name&gt; {-kt=&lt;key-<span class="kw">type</span>&gt;} {-kv=&lt;key&gt;} {-vt=&lt;value-<span class="kw">type</span>&gt;} {-v=&lt;value&gt;}
+modify -get -c=&lt;cache-name&gt; {-kt=&lt;key-<span class="kw">type</span>&gt;} {-kv=&lt;key&gt;}
+modify -remove -c=&lt;cache-name&gt; {-kt=&lt;key-<span class="kw">type</span>&gt;} {-kv=&lt;key&gt;}</pre><h6>Arguments</h6><pre>-c=&lt;cache-name&gt;
+    Name of the cache.
+-kt=&lt;key-<span class="kw">type</span>&gt;
+    Type of key. Default value is java.lang.<span class="std">String</span>. <span class="std">Short</span> <span class="kw">type</span> name can be specified.
+-kv=&lt;key&gt;
+    Key. Asked in interactive mode when it is not specified.
+-vt=&lt;value-<span class="kw">type</span>&gt;.
+    Type of value. Default value is java.lang.<span class="std">String</span>. <span class="std">Short</span> <span class="kw">type</span> name can be specified.
+    Value <span class="kw">type</span> is equals to key <span class="kw">type</span> when value is not specified.
+-v=&lt;value&gt;
+    Value. Equals to key when it is not specified.
+    Asked in interactive mode when key and value are not specified.</pre><h6>Examples</h6><pre>modify -put -c=@c0
+    Put value into cache in interactive mode.
+modify -get -c=@c0
+    Get value from cache in interactive mode.
+modify -remove -c=@c0
+    Remove value from cache in interactive mode.
+modify -put -c=cache -kv=key1
+    Put value into cache <span class="kw">with</span> name cache <span class="kw">with</span> key of default <span class="std">String</span> <span class="kw">type</span> equal to key1
+    and value equal to key.
+modify -put -c=cache -kt=java.lang.<span class="std">String</span> -kv=key1 -vt=lava.lang.<span class="std">String</span> -v=value1
+    Put value into cache <span class="kw">with</span> name cache <span class="kw">with</span> key of <span class="std">String</span> <span class="kw">type</span> equal to key1
+    and value of <span class="std">String</span> <span class="kw">type</span> equal to value1
+modify -get -c=cache -kt=java.lang.<span class="std">String</span> -kv=key1
+    Get value from cache <span class="kw">with</span> name cache <span class="kw">with</span> key of <span class="std">String</span> <span class="kw">type</span> equal to key1
+modify -remove -c=cache -kt=java.lang.<span class="std">String</span> -kv=key1
+    Remove value from cache <span class="kw">with</span> name cache <span class="kw">with</span> key of <span class="std">String</span> <span class="kw">type</span> equal to key1.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheRebalanceCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheRebalanceCommandextendsAnyRef"></a>
+      <a id="VisorCacheRebalanceCommand:VisorCacheRebalanceCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheRebalanceCommand.html"><span class="name">VisorCacheRebalanceCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheRebalanceCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'rebalance' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'rebalance' command implementation.</p><h6>Specification</h6><pre>cache -rebalance -c=&lt;cache name&gt;</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.</pre><h6>Examples</h6><pre>cache -rebalance -c=@c0
+    Re-balance partitions <span class="kw">for</span> cache <span class="kw">with</span> name taken from <span class="lit">'c0'</span> memory variable.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheResetCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheResetCommandextendsAnyRef"></a>
+      <a id="VisorCacheResetCommand:VisorCacheResetCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheResetCommand.html"><span class="name">VisorCacheResetCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheResetCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'reset' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'reset' command implementation.</p><h6>Specification</h6><pre>cache -reset -c=&lt;cache name&gt;</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.</pre><h6>Examples</h6><pre>cache -reset -c=@c0
+    Reset metrics <span class="kw">for</span> cache <span class="kw">with</span> name taken from <span class="lit">'c0'</span> memory variable.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheResetLostPartitionsCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheResetLostPartitionsCommandextendsAnyRef"></a>
+      <a id="VisorCacheResetLostPartitionsCommand:VisorCacheResetLostPartitionsCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheResetLostPartitionsCommand.html"><span class="name">VisorCacheResetLostPartitionsCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheResetLostPartitionsCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'lost partition reset' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'lost partition reset' command implementation.</p><h6>Specification</h6><pre>cache -rlp -c=&lt;cache name&gt;</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.</pre><h6>Examples</h6><pre>cache -rlp -c=@c0
+    Reset lost partition <span class="kw">for</span> cache <span class="kw">with</span> name taken from <span class="lit">'c0'</span> memory variable.</pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheScanCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheScanCommandextendsAnyRef"></a>
+      <a id="VisorCacheScanCommand:VisorCacheScanCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheScanCommand.html"><span class="name">VisorCacheScanCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheScanCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'scan' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'scan' command implementation.</p><h6>Specification</h6><pre>cache -scan -c=&lt;cache name&gt; {-near} {-id=&lt;node-id&gt;|-id8=&lt;node-id8&gt;} {-p=&lt;page size&gt;}</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.
+&lt;near&gt;
+    Prints list of all entries from near cache of cache.
+&lt;node-id&gt;
+    Full node ID.
+&lt;node-id8&gt;
+    Node ID8.
+&lt;page size&gt;
+    Number of <span class="kw">object</span> to fetch from cache at once.</pre><h6>Examples</h6><pre>cache -c=cache
+    <span class="std">List</span> entries from cache <span class="kw">with</span> name <span class="lit">'cache'</span> from all nodes <span class="kw">with</span> <span class="kw">this</span> cache.
+cache -c=@c0 -scan -p=<span class="num">50</span>
+    <span class="std">List</span> entries from cache <span class="kw">with</span> name taken from <span class="lit">'c0'</span> memory variable <span class="kw">with</span> page of <span class="num">50</span> items
+    from all nodes <span class="kw">with</span> <span class="kw">this</span> cache.
+cache -scan -c=cache -id8=<span class="num">12345678</span>
+    <span class="std">List</span> entries from cache <span class="kw">with</span> name <span class="lit">'cache'</span> and node '<span class="num">12345678</span>' ID8.
+cache -scan -near -c=cache -id8=<span class="num">12345678</span>
+    <span class="std">List</span> entries from near cache of cache <span class="kw">with</span> name <span class="lit">'cache'</span> and node '<span class="num">12345678</span><span class="lit">' ID8.</span></pre></div></div>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheStopCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorCacheStopCommandextendsAnyRef"></a>
+      <a id="VisorCacheStopCommand:VisorCacheStopCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheStopCommand.html"><span class="name">VisorCacheStopCommand</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheStopCommandextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Visor 'stop' command implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Visor 'stop' command implementation.</p><h6>Specification</h6><pre>cache -c=&lt;cache name&gt; -stop</pre><h6>Arguments</h6><pre>&lt;cache-name&gt;
+    Name of the cache.</pre><h6>Examples</h6><pre>cache -c=@c0 -stop
+    Stops cache <span class="kw">with</span> name taken from <span class="lit">'c0'</span> memory variable.</pre></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.apache.ignite.visor.commands.cache.VisorCacheClearCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheClearCommand"></a>
+      <a id="VisorCacheClearCommand:VisorCacheClearCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheClearCommand$.html"><span class="name">VisorCacheClearCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheClearCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheCommand"></a>
+      <a id="VisorCacheCommand:VisorCacheCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheCommand$.html"><span class="name">VisorCacheCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheLostPartitionsCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheLostPartitionsCommand"></a>
+      <a id="VisorCacheLostPartitionsCommand:VisorCacheLostPartitionsCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheLostPartitionsCommand$.html"><span class="name">VisorCacheLostPartitionsCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheLostPartitionsCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheModifyCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheModifyCommand"></a>
+      <a id="VisorCacheModifyCommand:VisorCacheModifyCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheModifyCommand$.html"><span class="name">VisorCacheModifyCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheModifyCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheRebalanceCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheRebalanceCommand"></a>
+      <a id="VisorCacheRebalanceCommand:VisorCacheRebalanceCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheRebalanceCommand$.html"><span class="name">VisorCacheRebalanceCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheRebalanceCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheResetCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheResetCommand"></a>
+      <a id="VisorCacheResetCommand:VisorCacheResetCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheResetCommand$.html"><span class="name">VisorCacheResetCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheResetCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheResetLostPartitionsCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheResetLostPartitionsCommand"></a>
+      <a id="VisorCacheResetLostPartitionsCommand:VisorCacheResetLostPartitionsCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheResetLostPartitionsCommand$.html"><span class="name">VisorCacheResetLostPartitionsCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheResetLostPartitionsCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheScanCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheScanCommand"></a>
+      <a id="VisorCacheScanCommand:VisorCacheScanCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheScanCommand$.html"><span class="name">VisorCacheScanCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheScanCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li><li name="org.apache.ignite.visor.commands.cache.VisorCacheStopCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorCacheStopCommand"></a>
+      <a id="VisorCacheStopCommand:VisorCacheStopCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorCacheStopCommand$.html"><span class="name">VisorCacheStopCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.cache.package@VisorCacheStopCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

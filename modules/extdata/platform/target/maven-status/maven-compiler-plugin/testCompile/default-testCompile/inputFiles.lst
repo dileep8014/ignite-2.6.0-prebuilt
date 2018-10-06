@@ -1,0 +1,14 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPluginConfigurationClosureFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPluginTarget.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPluginException.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/cache/PlatformTestCachePluginProvider.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/cache/PlatformTestCachePluginConfigurationClosureFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPluginConfiguration.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPluginProvider.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/cache/PlatformTestCachePluginConfiguration.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/cache/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/cache/PlatformGetCachePluginsTask.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPlugin.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/cache/PlatformTestCachePluginConfigurationClosure.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/platform/src/test/java/org/apache/ignite/platform/plugin/PlatformTestPluginExtension.java

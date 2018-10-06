@@ -1,0 +1,12 @@
+org/apache/ignite/cache/websession/WebSession.class
+org/apache/ignite/cache/websession/WebSessionFilter$1.class
+org/apache/ignite/cache/websession/WebSessionFilter$RequestWrapper.class
+org/apache/ignite/startup/servlet/ServletContextListenerStartup.class
+org/apache/ignite/cache/websession/WebSession$1.class
+org/apache/ignite/cache/websession/WebSessionFilter.class
+org/apache/ignite/cache/websession/WebSessionV2.class
+org/apache/ignite/cache/websession/WebSessionListener.class
+org/apache/ignite/cache/websession/WebSessionFilter$RequestWrapperV2.class
+org/apache/ignite/cache/websession/WebSessionListener$AttributesProcessor.class
+org/apache/ignite/startup/servlet/ServletStartup.class
+org/apache/ignite/cache/websession/WebSessionV2$1.class

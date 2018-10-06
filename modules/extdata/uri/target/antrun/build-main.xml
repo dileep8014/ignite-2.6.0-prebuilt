@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef classname="org.apache.ignite.util.antgar.IgniteDeploymentGarAntTask" name="gar"/>
+  <copy todir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes">
+    <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/src/main/java">
+      <include name="**/*.xml"/>
+      <include name="**/*.properties"/>
+    </fileset>
+  </copy>
+  <mkdir dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/deploy_tmp/"/>
+  <gar basedir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes" destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/deploy2/uri-classes.gar"/>
+  <zip destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes/lib/depend.jar" encoding="UTF-8">
+    <zipfileset dir="modules/uri-dependency/target/classes"/>
+  </zip>
+  <copy file="${settings.localRepository}/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2.jar" todir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes/lib"/>
+  <gar basedir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes/lib" destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/deploy2/uri-libs.gar"/>
+  <gar basedir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes" destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/deploy/uri.gar"/>
+  <gar basedir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes" destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/resources/helloworld.gar" descrdir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/META-INF"/>
+  <gar basedir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/classes" destfile="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/target/resources/helloworld1.gar" descrdir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/extdata/uri/META-INF"/>
+</target>
+</project>

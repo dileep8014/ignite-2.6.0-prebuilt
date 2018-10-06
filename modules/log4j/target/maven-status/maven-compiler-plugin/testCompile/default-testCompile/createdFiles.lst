@@ -1,0 +1,14 @@
+org/apache/ignite/logger/log4j/GridLog4jWatchDelayTest.class
+org/apache/ignite/logger/log4j/GridLog4jCorrectFileNameTest.class
+org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest$1.class
+org/apache/ignite/logger/log4j/GridLog4jInitializedTest.class
+org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest.class
+org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest$2.class
+org/apache/ignite/logger/log4j/GridLog4jLoggingPathTest.class
+org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest$4.class
+org/apache/ignite/testsuites/IgniteLog4jTestSuite.class
+org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest$3.class
+org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest$Log4JLoggerSupplier.class
+org/apache/ignite/logger/log4j/GridLog4jLoggingUrlTest.class
+org/apache/ignite/logger/log4j/GridLog4jNotInitializedTest.class
+org/apache/ignite/logger/log4j/GridLog4jLoggingFileTest.class

@@ -1,0 +1,16 @@
+org/apache/ignite/cache/spring/SpringCache$1.class
+org/apache/ignite/transactions/spring/SpringTransactionManager.class
+org/apache/ignite/cache/spring/SpringCacheManager.class
+org/apache/ignite/internal/util/spring/IgniteSpringHelperImpl.class
+org/apache/ignite/internal/processors/resource/GridResourceSpringBeanInjector.class
+org/apache/ignite/transactions/spring/SpringTransactionManager$IgniteTransactionObject.class
+org/apache/ignite/cache/store/spring/CacheSpringStoreSessionListener.class
+org/apache/ignite/cache/spring/SpringCache$NullValue.class
+org/apache/ignite/transactions/spring/SpringTransactionManager$1.class
+org/apache/ignite/cache/spring/SpringCache.class
+org/apache/ignite/transactions/spring/IgniteTransactionHolder.class
+org/apache/ignite/IgniteSpring.class
+org/apache/ignite/cache/store/spring/CacheSpringStoreSessionListener$1.class
+org/apache/ignite/internal/util/spring/IgniteSpringHelperImpl$1.class
+org/apache/ignite/IgniteSpringBean.class
+org/apache/ignite/internal/processors/resource/GridSpringResourceContextImpl.class

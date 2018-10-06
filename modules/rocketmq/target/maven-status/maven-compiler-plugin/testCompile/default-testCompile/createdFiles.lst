@@ -1,0 +1,5 @@
+org/apache/ignite/stream/rocketmq/RocketMQStreamerTest$TestTupleExtractor.class
+org/apache/ignite/stream/rocketmq/RocketMQStreamerTestSuite.class
+org/apache/ignite/stream/rocketmq/TestRocketMQServer.class
+org/apache/ignite/stream/rocketmq/RocketMQStreamerTest.class
+org/apache/ignite/stream/rocketmq/RocketMQStreamerTest$1.class

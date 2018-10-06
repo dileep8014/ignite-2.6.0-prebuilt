@@ -1,0 +1,45 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:2.10.1:javadoc] with no properties
+
+M2_HOME=/home/ravitejarockon1712/java_practice/maven_practice/apache-maven-3.5.4
+MAVEN_OPTS= -Xms256m
+JAVA_HOME=/home/ravitejarockon1712/.sdkman/candidates/java/8.0.172-zulu/jre/..
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.ignite:ignite-appserver-test >---------------
+[INFO] Building ignite-appserver-test 2.6.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) > generate-sources @ ignite-appserver-test >>>
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) < generate-sources @ ignite-appserver-test <<<
+[INFO] 
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-core/2.6.0/ignite-core-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-core/2.6.0/ignite-core-2.6.0.pom (12 kB at 29 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-web/2.6.0/ignite-web-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-web/2.6.0/ignite-web-2.6.0.pom (11 kB at 67 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-log4j/2.6.0/ignite-log4j-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-log4j/2.6.0/ignite-log4j-2.6.0.pom (11 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-spring/2.6.0/ignite-spring-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-spring/2.6.0/ignite-spring-2.6.0.pom (13 kB at 82 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-indexing/2.6.0/ignite-indexing-2.6.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-indexing/2.6.0/ignite-indexing-2.6.0.pom (12 kB at 80 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-core/2.6.0/ignite-core-2.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-web/2.6.0/ignite-web-2.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-spring/2.6.0/ignite-spring-2.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-log4j/2.6.0/ignite-log4j-2.6.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-indexing/2.6.0/ignite-indexing-2.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-log4j/2.6.0/ignite-log4j-2.6.0.jar (27 kB at 177 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-web/2.6.0/ignite-web-2.6.0.jar (41 kB at 252 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-spring/2.6.0/ignite-spring-2.6.0.jar (47 kB at 257 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-indexing/2.6.0/ignite-indexing-2.6.0.jar (654 kB at 2.0 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ignite/ignite-core/2.6.0/ignite-core-2.6.0.jar (11 MB at 16 MB/s)
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ ignite-appserver-test ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.285 s
+[INFO] Finished at: 2018-10-05T09:03:41Z
+[INFO] ------------------------------------------------------------------------

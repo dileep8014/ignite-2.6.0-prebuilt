@@ -1,0 +1,2549 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>visor - Ignite Console Visor - org.apache.ignite.visor.visor</title>
+          <meta name="description" content="visor - Ignite Console Visor - org.apache.ignite.visor.visor" />
+          <meta name="keywords" content="visor Ignite Console Visor org.apache.ignite.visor.visor" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'org.apache.ignite.visor.visor$';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Object" src="../../../../lib/object_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="org">org</a>.<a href="../../package.html" class="extype" name="org.apache">apache</a>.<a href="../package.html" class="extype" name="org.apache.ignite">ignite</a>.<a href="package.html" class="extype" name="org.apache.ignite.visor">visor</a></p>
+        <h1>visor</h1><h3><span class="morelinks"><div>Related Doc:
+            <a href="package.html" class="extype" name="org.apache.ignite.visor">package visor</a>
+          </div></span></h3><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <span class="name">visor</span><span class="result"> extends <a href="VisorTag.html" class="extype" name="org.apache.ignite.visor.VisorTag">VisorTag</a></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p></p><pre>___    _________________________ ________
+__ |  / /____  _/__  ___/__  __ \___  __ \
+__ | / /  __  /  _____ \ _  / / /__  /_/ /
+__ |/ /  __/ /   ____/ / / /_/ / _  _, _/
+_____/   /___/   /____/  \____/  /_/ |_|</pre><h4>Overview</h4><p>Visor console provides monitoring capabilities for Ignite.</p><h4>Usage</h4><p>Ignite ships with <code>IGNITE_HOME/bin/ignitevisorcmd.{sh|bat}</code> script that starts Visor console.</p><p>Just type:&lt;ex&gt;help&lt;/ex&gt; in Visor console to get help and get started.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@IgniteNotPeerDeployable</span><span class="args">()</span>
+              
+        </dd></dl><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="VisorTag.html" class="extype" name="org.apache.ignite.visor.VisorTag">VisorTag</a>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="org.apache.ignite.visor.visor"><span>visor</span></li><li class="in" name="org.apache.ignite.visor.VisorTag"><span>VisorTag</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.apache.ignite.visor.visor.Arg" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Arg=(String,String)"></a>
+      <a id="Arg:Arg"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Arg</span><span class="result"> = (<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@Arg=(String,String)" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Argument type.</p>
+    </li><li name="org.apache.ignite.visor.visor.ArgList" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ArgList=Seq[org.apache.ignite.visor.visor.Arg]"></a>
+      <a id="ArgList:ArgList"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ArgList</span><span class="result"> = <span class="extype" name="scala.collection.Seq">Seq</span>[<a href="#Arg=(String,String)" class="extmbr" name="org.apache.ignite.visor.visor.Arg">Arg</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@ArgList=Seq[org.apache.ignite.visor.visor.Arg]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Type alias for command argument list.</p>
+    </li><li name="org.apache.ignite.visor.visor.EventFilter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EventFilter=org.apache.ignite.events.Event=&gt;Boolean"></a>
+      <a id="EventFilter:EventFilter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EventFilter</span><span class="result"> = (<span class="extype" name="org.apache.ignite.events.Event">Event</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@EventFilter=org.apache.ignite.events.Event=&gt;Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Type alias for general event filter.</p>
+    </li><li name="org.apache.ignite.visor.visor.NodeFilter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NodeFilter=org.apache.ignite.cluster.ClusterNode=&gt;Boolean"></a>
+      <a id="NodeFilter:NodeFilter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">NodeFilter</span><span class="result"> = (<span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@NodeFilter=org.apache.ignite.cluster.ClusterNode=&gt;Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Type alias for general node filter.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@##():Int" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@==(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#ALL_NODES_FILTER" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ALL_NODES_FILTER:org.apache.ignite.cluster.ClusterNode=&gt;Boolean"></a>
+      <a id="ALL_NODES_FILTER:(ClusterNode)⇒Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ALL_NODES_FILTER</span><span class="result">: (<span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@ALL_NODES_FILTER:org.apache.ignite.cluster.ClusterNode=&gt;Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Node filter that includes any node.</p>
+    </li><li name="org.apache.ignite.visor.visor#EVT_LAST_ORDER_KEY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EVT_LAST_ORDER_KEY:String"></a>
+      <a id="EVT_LAST_ORDER_KEY:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EVT_LAST_ORDER_KEY</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@EVT_LAST_ORDER_KEY:String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Unique Visor key to get events last order.</p>
+    </li><li name="org.apache.ignite.visor.visor#EVT_THROTTLE_CNTR_KEY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EVT_THROTTLE_CNTR_KEY:String"></a>
+      <a id="EVT_THROTTLE_CNTR_KEY:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">EVT_THROTTLE_CNTR_KEY</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@EVT_THROTTLE_CNTR_KEY:String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Unique Visor key to get events throttle counter.</p>
+    </li><li name="org.apache.ignite.visor.visor#INPUT_TYPES" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="INPUT_TYPES:Seq[(String,String=&gt;Object,Class[_])]"></a>
+      <a id="INPUT_TYPES:Seq[(String,(String)⇒AnyRef,Class[_])]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">INPUT_TYPES</span><span class="result">: <span class="extype" name="scala.Seq">Seq</span>[(<span class="extype" name="scala.Predef.String">String</span>, (<span class="extype" name="scala.Predef.String">String</span>) ⇒ <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Predef.Class">Class</span>[_])]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@INPUT_TYPES:Seq[(String,String=&gt;Object,Class[_])]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#NA" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NA:String(&quot;&lt;n/a&gt;&quot;)"></a>
+      <a id="NA:String(&quot;&lt;n/a&gt;&quot;)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">NA</span><span class="result">: String(&quot;&lt;n/a&gt;&quot;)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@NA:String(&quot;&lt;n/a&gt;&quot;)" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Display value for <code>null</code>.</p>
+    </li><li name="org.apache.ignite.visor.visor#NL" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NL:String"></a>
+      <a id="NL:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">NL</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@NL:String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">System line separator.</p>
+    </li><li name="org.apache.ignite.visor.visor#Til" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Til:org.apache.ignite.visor.visor.Arg"></a>
+      <a id="Til:Arg"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Til</span><span class="result">: <a href="#Arg=(String,String)" class="extmbr" name="org.apache.ignite.visor.visor.Arg">Arg</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@Til:org.apache.ignite.visor.visor.Arg" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"><code>Nil</code> is for empty list, <code>Til</code> is for empty tuple.</p>
+    </li><li name="org.apache.ignite.visor.visor#addCloseCallback" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="addCloseCallback(f:()=&gt;Unit):Unit"></a>
+      <a id="addCloseCallback(()⇒Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">addCloseCallback</span><span class="params">(<span name="f">f: () ⇒ <span class="extype" name="scala.Unit">Unit</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@addCloseCallback(f:()=&gt;Unit):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Adds close callback.</p><div class="fullcomment"><div class="comment cmt"><p>Adds close callback. Added function will be called every time
+command <code>close</code> is called.
+</p></div><dl class="paramcmts block"><dt class="param">f</dt><dd class="cmt"><p>Close callback to add.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#addHelp" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="addHelp(name:String,shortInfo:String,longInfo:Seq[String],aliases:Seq[String],spec:Seq[String],args:Seq[(String,AnyRef)],examples:Seq[(String,AnyRef)],emptyArgs:()=&gt;Unit,withArgs:String=&gt;Unit):Unit"></a>
+      <a id="addHelp(String,String,Seq[String],Seq[String],Seq[String],Seq[(String,AnyRef)],Seq[(String,AnyRef)],()⇒Unit,(String)⇒Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">addHelp</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="shortInfo">shortInfo: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="longInfo">longInfo: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">null</span></span>, <span name="aliases">aliases: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">Seq.empty</span></span>, <span name="spec">spec: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="args">args: <span class="extype" name="scala.Seq">Seq</span>[(<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>)] = <span class="symbol">null</span></span>, <span name="examples">examples: <span class="extype" name="scala.Seq">Seq</span>[(<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>)]</span>, <span name="emptyArgs">emptyArgs: () ⇒ <span class="extype" name="scala.Unit">Unit</span></span>, <span name="withArgs">withArgs: (<span class="extype" name="scala.Predef.String">String</span>) ⇒ <span class="extype" name="scala.Unit">Unit</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@addHelp(name:String,shortInfo:String,longInfo:Seq[String],aliases:Seq[String],spec:Seq[String],args:Seq[(String,AnyRef)],examples:Seq[(String,AnyRef)],emptyArgs:()=&gt;Unit,withArgs:String=&gt;Unit):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Adds command help to the Visor console.</p><div class="fullcomment"><div class="comment cmt"><p>Adds command help to the Visor console. This will be printed as part of <code>help</code> command.
+</p></div><dl class="paramcmts block"><dt class="param">name</dt><dd class="cmt"><p>Command name.</p></dd><dt class="param">shortInfo</dt><dd class="cmt"><p>Short command description.</p></dd><dt class="param">longInfo</dt><dd class="cmt"><p>Optional multi-line long command description. If not provided - short description
+     will be used instead.</p></dd><dt class="param">aliases</dt><dd class="cmt"><p>List of aliases. Optional.</p></dd><dt class="param">spec</dt><dd class="cmt"><p>Command specification.</p></dd><dt class="param">args</dt><dd class="cmt"><p>List of <code>(host, description)</code> tuples for command arguments. Optional.</p></dd><dt class="param">examples</dt><dd class="cmt"><p>List of <code>(example, description)</code> tuples for command examples.</p></dd><dt class="param">emptyArgs</dt><dd class="cmt"><p>- command implementation with empty arguments.</p></dd><dt class="param">withArgs</dt><dd class="cmt"><p>- command implementation with arguments.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#addShutdownCallback" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="addShutdownCallback(f:()=&gt;Unit):Unit"></a>
+      <a id="addShutdownCallback(()⇒Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">addShutdownCallback</span><span class="params">(<span name="f">f: () ⇒ <span class="extype" name="scala.Unit">Unit</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@addShutdownCallback(f:()=&gt;Unit):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Adds close callback.</p><div class="fullcomment"><div class="comment cmt"><p>Adds close callback. Added function will be called every time
+command <code>close</code> is called.
+</p></div><dl class="paramcmts block"><dt class="param">f</dt><dd class="cmt"><p>Close callback to add.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#apply" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="apply():Unit"></a>
+      <a id="apply():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">apply</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@apply():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints out status and help in case someone calls <code>visor()</code>.</p>
+    </li><li name="org.apache.ignite.visor.visor#argName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="argName(t:(String,String)):String"></a>
+      <a id="argName((String,String)):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">argName</span><span class="params">(<span name="t">t: (<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>)</span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@argName(t:(String,String)):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Helper function that makes up the full argument host from tuple.</p><div class="fullcomment"><div class="comment cmt"><p>Helper function that makes up the full argument host from tuple.
+</p></div><dl class="paramcmts block"><dt class="param">t</dt><dd class="cmt"><p>Command argument tuple.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#argValue" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="argValue(n:String,args:org.apache.ignite.visor.visor.ArgList):Option[String]"></a>
+      <a id="argValue(String,ArgList):Option[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">argValue</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="args">args: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@argValue(n:String,args:org.apache.ignite.visor.visor.ArgList):Option[String]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets the value for a given argument host.</p><div class="fullcomment"><div class="comment cmt"><p>Gets the value for a given argument host.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Argument host.</p></dd><dt class="param">args</dt><dd class="cmt"><p>Argument list.</p></dd><dt>returns</dt><dd class="cmt"><p>Argument value.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Nullable</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#arr2Str" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="arr2Str[T](arr:Array[T],dflt:Any):String"></a>
+      <a id="arr2Str[T](Array[T],Any):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">arr2Str</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="arr">arr: <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="org.apache.ignite.visor.visor.arr2Str.T">T</span>]</span>, <span name="dflt">dflt: <span class="extype" name="scala.Any">Any</span> = <span class="symbol"><span class="name"><a href="#NA:String(&quot;&lt;n/a&gt;&quot;)">NA</a></span></span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@arr2Str[T](arr:Array[T],dflt:Any):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Joins array elements to string.</p><div class="fullcomment"><div class="comment cmt"><p>Joins array elements to string.
+</p></div><dl class="paramcmts block"><dt class="param">arr</dt><dd class="cmt"><p>Array.</p></dd><dt class="param">dflt</dt><dd class="cmt"><p>Value to return if <code>arr</code> is <code>null</code> or empty.</p></dd><dt>returns</dt><dd class="cmt"><p>String.</p></dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#ask" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ask(prompt:String,dflt:String,passwd:Boolean):String"></a>
+      <a id="ask(String,String,Boolean):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ask</span><span class="params">(<span name="prompt">prompt: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="dflt">dflt: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="passwd">passwd: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@ask(prompt:String,dflt:String,passwd:Boolean):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Asks user input.</p><div class="fullcomment"><div class="comment cmt"><p>Asks user input.
+</p></div><dl class="paramcmts block"><dt class="param">prompt</dt><dd class="cmt"><p>Prompt string.</p></dd><dt class="param">dflt</dt><dd class="cmt"><p>Default value for user input.</p></dd><dt class="param">passwd</dt><dd class="cmt"><p>If <code>true</code>, input will be masked with '*' character. <code>false</code> by default.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#askConfigFile" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="askConfigFile():Option[String]"></a>
+      <a id="askConfigFile():Option[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">askConfigFile</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@askConfigFile():Option[String]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Asks user to choose configuration file.</p><div class="fullcomment"><div class="comment cmt"><p>Asks user to choose configuration file.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>Option</code> for file path.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#askForHost" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="askForHost(title:String):Option[org.apache.ignite.cluster.ClusterGroup]"></a>
+      <a id="askForHost(String):Option[ClusterGroup]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">askForHost</span><span class="params">(<span name="title">title: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.apache.ignite.cluster.ClusterGroup">ClusterGroup</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@askForHost(title:String):Option[org.apache.ignite.cluster.ClusterGroup]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Asks user to select a host from the list.</p><div class="fullcomment"><div class="comment cmt"><p>Asks user to select a host from the list.
+</p></div><dl class="paramcmts block"><dt class="param">title</dt><dd class="cmt"><p>Title displayed before the list of hosts.</p></dd><dt>returns</dt><dd class="cmt"><p><code>Option</code> for projection of nodes located on selected host.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#askForNode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="askForNode(title:String):Option[java.util.UUID]"></a>
+      <a id="askForNode(String):Option[UUID]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">askForNode</span><span class="params">(<span name="title">title: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="java.util.UUID">UUID</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@askForNode(title:String):Option[java.util.UUID]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Asks user to select a node from the list.</p><div class="fullcomment"><div class="comment cmt"><p>Asks user to select a node from the list.
+</p></div><dl class="paramcmts block"><dt class="param">title</dt><dd class="cmt"><p>Title displayed before the list of nodes.</p></dd><dt>returns</dt><dd class="cmt"><p><code>Option</code> for ID of selected node.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#askTypedValue" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="askTypedValue(name:String):Option[Object]"></a>
+      <a id="askTypedValue(String):Option[AnyRef]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">askTypedValue</span><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.AnyRef">AnyRef</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@askTypedValue(name:String):Option[Object]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#assignNodeValue" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="assignNodeValue(node:org.apache.ignite.cluster.ClusterNode):Option[(String,String)]"></a>
+      <a id="assignNodeValue(ClusterNode):Option[(String,String)]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">assignNodeValue</span><span class="params">(<span name="node">node: <span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[(<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>)]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@assignNodeValue(node:org.apache.ignite.cluster.ClusterNode):Option[(String,String)]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#batchMode" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="batchMode:Boolean"></a>
+      <a id="batchMode:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">batchMode</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@batchMode:Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#bool2Str" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="bool2Str(bool:Boolean):String"></a>
+      <a id="bool2Str(Boolean):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bool2Str</span><span class="params">(<span name="bool">bool: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@bool2Str(bool:Boolean):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Converts <code>Boolean</code> to 'on'/'off' string.</p><div class="fullcomment"><div class="comment cmt"><p>Converts <code>Boolean</code> to 'on'/'off' string.
+</p></div><dl class="paramcmts block"><dt class="param">bool</dt><dd class="cmt"><p>Boolean value.</p></dd><dt>returns</dt><dd class="cmt"><p>String.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#cacheConfigurations" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="cacheConfigurations(nid:java.util.UUID):java.util.Collection[org.apache.ignite.internal.visor.cache.VisorCacheConfiguration]"></a>
+      <a id="cacheConfigurations(UUID):Collection[VisorCacheConfiguration]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cacheConfigurations</span><span class="params">(<span name="nid">nid: <span class="extype" name="java.util.UUID">UUID</span></span>)</span><span class="result">: <span class="extype" name="java.util.Collection">Collection</span>[<span class="extype" name="org.apache.ignite.internal.visor.cache.VisorCacheConfiguration">VisorCacheConfiguration</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@cacheConfigurations(nid:java.util.UUID):java.util.Collection[org.apache.ignite.internal.visor.cache.VisorCacheConfiguration]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets caches configurations from specified node.</p><div class="fullcomment"><div class="comment cmt"><p>Gets caches configurations from specified node.
+</p></div><dl class="paramcmts block"><dt class="param">nid</dt><dd class="cmt"><p>Node ID to collect configuration from.</p></dd><dt>returns</dt><dd class="cmt"><p>Collection of cache configurations.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">&quot;In case of empty topology.&quot;</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#cfgPath" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="cfgPath:String"></a>
+      <a id="cfgPath:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cfgPath</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@cfgPath:String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Configuration file path, if any.</p>
+    </li><li name="org.apache.ignite.visor.visor#checkConnected" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="checkConnected():Boolean"></a>
+      <a id="checkConnected():Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">checkConnected</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@checkConnected():Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Check connection state and show inform message when Visor console is not connected to cluster.</p><div class="fullcomment"><div class="comment cmt"><p>Check connection state and show inform message when Visor console is not connected to cluster.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>True</code> when Visor console is connected to cluster.</p></dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@clone():Object" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#close" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="close():Unit"></a>
+      <a id="close():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">close</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@close():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Disconnects visor.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Disconnects visor.</p><h4>Examples</h4><p>&lt;ex&gt;close&lt;/ex&gt;
+Disconnects from the grid.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#commands" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="commands:Seq[String]"></a>
+      <a id="commands:Seq[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">lazy val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">commands</span><span class="result">: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@commands:Seq[String]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#connectTimestamp" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="connectTimestamp:Long"></a>
+      <a id="connectTimestamp:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">connectTimestamp</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@connectTimestamp:Long" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets timestamp of Visor console connection.</p><div class="fullcomment"><div class="comment cmt"><p>Gets timestamp of Visor console connection. Returns <code>0</code> if Visor console is not connected.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>Timestamp of Visor console connection.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#emptyTaskArgument" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="emptyTaskArgument[A](nids:Iterable[java.util.UUID]):org.apache.ignite.internal.visor.VisorTaskArgument[Void]"></a>
+      <a id="emptyTaskArgument[A](Iterable[UUID]):VisorTaskArgument[Void]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">emptyTaskArgument</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="nids">nids: <span class="extype" name="scala.Iterable">Iterable</span>[<span class="extype" name="java.util.UUID">UUID</span>]</span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.internal.visor.VisorTaskArgument">VisorTaskArgument</span>[<span class="extype" name="java.lang.Void">Void</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@emptyTaskArgument[A](nids:Iterable[java.util.UUID]):org.apache.ignite.internal.visor.VisorTaskArgument[Void]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#emptyTaskArgument" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="emptyTaskArgument[A](nid:java.util.UUID):org.apache.ignite.internal.visor.VisorTaskArgument[Void]"></a>
+      <a id="emptyTaskArgument[A](UUID):VisorTaskArgument[Void]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">emptyTaskArgument</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="nid">nid: <span class="extype" name="java.util.UUID">UUID</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.internal.visor.VisorTaskArgument">VisorTaskArgument</span>[<span class="extype" name="java.lang.Void">Void</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@emptyTaskArgument[A](nid:java.util.UUID):org.apache.ignite.internal.visor.VisorTaskArgument[Void]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert to task argument.</p>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@equals(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#executeMulti" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="executeMulti[A,R,J](task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R"></a>
+      <a id="executeMulti[A,R,J](Class[_&lt;:VisorMultiNodeTask[A,R,J]],A):R"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">executeMulti</span><span class="tparams">[<span name="A">A</span>, <span name="R">R</span>, <span name="J">J</span>]</span><span class="params">(<span name="task">task: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="org.apache.ignite.internal.visor.VisorMultiNodeTask">VisorMultiNodeTask</span>[<span class="extype" name="org.apache.ignite.visor.visor.executeMulti.A">A</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.R">R</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.J">J</span>]]</span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.R">R</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@executeMulti[A,R,J](task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Execute task on all nodes.</p><div class="fullcomment"><div class="comment cmt"><p>Execute task on all nodes.
+</p></div><dl class="paramcmts block"><dt class="tparam">A</dt><dd class="cmt"><p>Task argument type.</p></dd><dt class="tparam">R</dt><dd class="cmt"><p>Task result type</p></dd><dt class="tparam">J</dt><dd class="cmt"><p>Job class.</p></dd><dt class="param">task</dt><dd class="cmt"><p>Task class</p></dd><dt class="param">arg</dt><dd class="cmt"><p>Task argument.</p></dd><dt>returns</dt><dd class="cmt"><p>Task result.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">&quot;In case of empty topology.&quot;</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#executeMulti" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="executeMulti[A,R,J](nids:Iterable[java.util.UUID],task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R"></a>
+      <a id="executeMulti[A,R,J](Iterable[UUID],Class[_&lt;:VisorMultiNodeTask[A,R,J]],A):R"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">executeMulti</span><span class="tparams">[<span name="A">A</span>, <span name="R">R</span>, <span name="J">J</span>]</span><span class="params">(<span name="nids">nids: <span class="extype" name="scala.Iterable">Iterable</span>[<span class="extype" name="java.util.UUID">UUID</span>]</span>, <span name="task">task: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="org.apache.ignite.internal.visor.VisorMultiNodeTask">VisorMultiNodeTask</span>[<span class="extype" name="org.apache.ignite.visor.visor.executeMulti.A">A</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.R">R</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.J">J</span>]]</span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.visor.visor.executeMulti.R">R</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@executeMulti[A,R,J](nids:Iterable[java.util.UUID],task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Execute task on specified nodes.</p><div class="fullcomment"><div class="comment cmt"><p>Execute task on specified nodes.
+</p></div><dl class="paramcmts block"><dt class="tparam">A</dt><dd class="cmt"><p>Task argument type.</p></dd><dt class="tparam">R</dt><dd class="cmt"><p>Task result type</p></dd><dt class="tparam">J</dt><dd class="cmt"><p>Job class.</p></dd><dt class="param">nids</dt><dd class="cmt"><p>Node ids.</p></dd><dt class="param">task</dt><dd class="cmt"><p>Task class</p></dd><dt class="param">arg</dt><dd class="cmt"><p>Task argument.</p></dd><dt>returns</dt><dd class="cmt"><p>Task result.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">&quot;In case of empty topology.&quot;</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#executeOne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="executeOne[A,R,J](nid:java.util.UUID,task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R"></a>
+      <a id="executeOne[A,R,J](UUID,Class[_&lt;:VisorMultiNodeTask[A,R,J]],A):R"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">executeOne</span><span class="tparams">[<span name="A">A</span>, <span name="R">R</span>, <span name="J">J</span>]</span><span class="params">(<span name="nid">nid: <span class="extype" name="java.util.UUID">UUID</span></span>, <span name="task">task: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="org.apache.ignite.internal.visor.VisorMultiNodeTask">VisorMultiNodeTask</span>[<span class="extype" name="org.apache.ignite.visor.visor.executeOne.A">A</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeOne.R">R</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeOne.J">J</span>]]</span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.executeOne.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.visor.visor.executeOne.R">R</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@executeOne[A,R,J](nid:java.util.UUID,task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Execute task on node.</p><div class="fullcomment"><div class="comment cmt"><p>Execute task on node.
+</p></div><dl class="paramcmts block"><dt class="tparam">A</dt><dd class="cmt"><p>Task argument type.</p></dd><dt class="tparam">R</dt><dd class="cmt"><p>Task result type</p></dd><dt class="tparam">J</dt><dd class="cmt"><p>Job class.</p></dd><dt class="param">nid</dt><dd class="cmt"><p>Node id.</p></dd><dt class="param">task</dt><dd class="cmt"><p>Task class</p></dd><dt class="param">arg</dt><dd class="cmt"><p>Task argument.</p></dd><dt>returns</dt><dd class="cmt"><p>Task result.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">&quot;In case of empty topology.&quot;</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#executeRandom" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="executeRandom[A,R,J](task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R"></a>
+      <a id="executeRandom[A,R,J](Class[_&lt;:VisorMultiNodeTask[A,R,J]],A):R"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">executeRandom</span><span class="tparams">[<span name="A">A</span>, <span name="R">R</span>, <span name="J">J</span>]</span><span class="params">(<span name="task">task: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="org.apache.ignite.internal.visor.VisorMultiNodeTask">VisorMultiNodeTask</span>[<span class="extype" name="org.apache.ignite.visor.visor.executeRandom.A">A</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.R">R</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.J">J</span>]]</span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.R">R</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@executeRandom[A,R,J](task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Execute task on random node.</p><div class="fullcomment"><div class="comment cmt"><p>Execute task on random node.
+</p></div><dl class="paramcmts block"><dt class="tparam">A</dt><dd class="cmt"><p>Task argument type.</p></dd><dt class="tparam">R</dt><dd class="cmt"><p>Task result type</p></dd><dt class="tparam">J</dt><dd class="cmt"><p>Job class.</p></dd><dt class="param">task</dt><dd class="cmt"><p>Task class</p></dd><dt class="param">arg</dt><dd class="cmt"><p>Task argument.</p></dd><dt>returns</dt><dd class="cmt"><p>Task result.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">&quot;In case of empty topology.&quot;</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#executeRandom" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="executeRandom[A,R,J](grp:org.apache.ignite.cluster.ClusterGroup,task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R"></a>
+      <a id="executeRandom[A,R,J](ClusterGroup,Class[_&lt;:VisorMultiNodeTask[A,R,J]],A):R"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">executeRandom</span><span class="tparams">[<span name="A">A</span>, <span name="R">R</span>, <span name="J">J</span>]</span><span class="params">(<span name="grp">grp: <span class="extype" name="org.apache.ignite.cluster.ClusterGroup">ClusterGroup</span></span>, <span name="task">task: <span class="extype" name="scala.Predef.Class">Class</span>[_ &lt;: <span class="extype" name="org.apache.ignite.internal.visor.VisorMultiNodeTask">VisorMultiNodeTask</span>[<span class="extype" name="org.apache.ignite.visor.visor.executeRandom.A">A</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.R">R</span>, <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.J">J</span>]]</span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.visor.visor.executeRandom.R">R</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@executeRandom[A,R,J](grp:org.apache.ignite.cluster.ClusterGroup,task:Class[_&lt;:org.apache.ignite.internal.visor.VisorMultiNodeTask[A,R,J]],arg:A):R" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Execute task on random node from specified cluster group.</p><div class="fullcomment"><div class="comment cmt"><p>Execute task on random node from specified cluster group.
+</p></div><dl class="paramcmts block"><dt class="tparam">A</dt><dd class="cmt"><p>Task argument type.</p></dd><dt class="tparam">R</dt><dd class="cmt"><p>Task result type</p></dd><dt class="tparam">J</dt><dd class="cmt"><p>Job class.</p></dd><dt class="param">grp</dt><dd class="cmt"><p>Cluster group to take rundom node from</p></dd><dt class="param">task</dt><dd class="cmt"><p>Task class</p></dd><dt class="param">arg</dt><dd class="cmt"><p>Task argument.</p></dd><dt>returns</dt><dd class="cmt"><p>Task result.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">&quot;In case of empty topology.&quot;</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@finalize():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatDate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatDate(date:java.util.Date):String"></a>
+      <a id="formatDate(Date):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatDate</span><span class="params">(<span name="date">date: <span class="extype" name="java.util.Date">Date</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatDate(date:java.util.Date):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the date provided.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the date provided. Result formatted using
+pattern <code>MM/dd/yy</code>.
+</p></div><dl class="paramcmts block"><dt class="param">date</dt><dd class="cmt"><p>Date.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatDate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatDate(ts:Long):String"></a>
+      <a id="formatDate(Long):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatDate</span><span class="params">(<span name="ts">ts: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatDate(ts:Long):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the timestamp provided.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the timestamp provided. Result formatted
+using pattern <code>MM/dd/yy</code>.
+</p></div><dl class="paramcmts block"><dt class="param">ts</dt><dd class="cmt"><p>Timestamp.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatDateTime" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatDateTime(date:java.util.Date):String"></a>
+      <a id="formatDateTime(Date):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatDateTime</span><span class="params">(<span name="date">date: <span class="extype" name="java.util.Date">Date</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatDateTime(date:java.util.Date):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the date provided.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the date provided. Result formatted using
+pattern <code>MM/dd/yy, HH:mm:ss</code>.
+</p></div><dl class="paramcmts block"><dt class="param">date</dt><dd class="cmt"><p>Date.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatDateTime" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatDateTime(ts:Long):String"></a>
+      <a id="formatDateTime(Long):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatDateTime</span><span class="params">(<span name="ts">ts: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatDateTime(ts:Long):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the timestamp provided.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the timestamp provided. Result formatted
+using pattern <code>MM/dd/yy, HH:mm:ss</code>.
+</p></div><dl class="paramcmts block"><dt class="param">ts</dt><dd class="cmt"><p>Timestamp.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatDouble" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatDouble(d:Double):String"></a>
+      <a id="formatDouble(Double):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatDouble</span><span class="params">(<span name="d">d: <span class="extype" name="scala.Double">Double</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatDouble(d:Double):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Formats double value with <code>#0.00</code> formatter.</p><div class="fullcomment"><div class="comment cmt"><p>Formats double value with <code>#0.00</code> formatter.
+</p></div><dl class="paramcmts block"><dt class="param">d</dt><dd class="cmt"><p>Double value to format.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatInt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatInt(d:Double):String"></a>
+      <a id="formatInt(Double):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatInt</span><span class="params">(<span name="d">d: <span class="extype" name="scala.Double">Double</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatInt(d:Double):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Formats double value with <code>#0</code> formatter.</p><div class="fullcomment"><div class="comment cmt"><p>Formats double value with <code>#0</code> formatter.
+</p></div><dl class="paramcmts block"><dt class="param">d</dt><dd class="cmt"><p>Double value to format.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatMemory" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatMemory(n:Long):String"></a>
+      <a id="formatMemory(Long):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatMemory</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatMemory(n:Long):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the memory.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the memory.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Memory size.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatMemoryLimit" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatMemoryLimit(n:Long):String"></a>
+      <a id="formatMemoryLimit(Long):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatMemoryLimit</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatMemoryLimit(n:Long):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the memory limit.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the memory limit.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Memory size.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#formatNumber" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="formatNumber(n:Long):String"></a>
+      <a id="formatNumber(Long):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">formatNumber</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@formatNumber(n:Long):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string representation of the number.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string representation of the number.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Number.</p></dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#getVariable" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getVariable(v:String):String"></a>
+      <a id="getVariable(String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getVariable</span><span class="params">(<span name="v">v: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@getVariable(v:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Try get variable value with given name.</p><div class="fullcomment"><div class="comment cmt"><p>Try get variable value with given name.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>variable name.</p></dd><dt>returns</dt><dd class="cmt"><p>variable value or <code>v</code> if variable with name <code>v</code> not exist.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#gridOpt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="gridOpt:Option[org.apache.ignite.internal.IgniteEx]"></a>
+      <a id="gridOpt:Option[IgniteEx]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">gridOpt</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.apache.ignite.internal.IgniteEx">IgniteEx</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@gridOpt:Option[org.apache.ignite.internal.IgniteEx]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets global projection as an option.</p>
+    </li><li name="org.apache.ignite.visor.visor#groupForDataNode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="groupForDataNode(node:Option[org.apache.ignite.cluster.ClusterNode],cacheName:String):org.apache.ignite.cluster.ClusterGroup"></a>
+      <a id="groupForDataNode(Option[ClusterNode],String):ClusterGroup"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">groupForDataNode</span><span class="params">(<span name="node">node: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span>]</span>, <span name="cacheName">cacheName: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.cluster.ClusterGroup">ClusterGroup</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@groupForDataNode(node:Option[org.apache.ignite.cluster.ClusterNode],cacheName:String):org.apache.ignite.cluster.ClusterGroup" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">node</dt><dd class="cmt"><p>Optional node.</p></dd><dt class="param">cacheName</dt><dd class="cmt"><p>Cache name to take cluster group for.</p></dd><dt>returns</dt><dd class="cmt"><p>Cluster group with data nodes for specified cache or cluster group for specified node.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#hasArgFlag" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hasArgFlag(n:String,args:org.apache.ignite.visor.visor.ArgList):Boolean"></a>
+      <a id="hasArgFlag(String,ArgList):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hasArgFlag</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="args">args: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@hasArgFlag(n:String,args:org.apache.ignite.visor.visor.ArgList):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Shortcut method that checks if flag (non-<code>null</code> host and <code>null</code> value) is set
+in the argument list.</p><div class="fullcomment"><div class="comment cmt"><p>Shortcut method that checks if flag (non-<code>null</code> host and <code>null</code> value) is set
+in the argument list.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Name of the flag.</p></dd><dt class="param">args</dt><dd class="cmt"><p>Command argument list.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#hasArgName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hasArgName(n:String,args:org.apache.ignite.visor.visor.ArgList):Boolean"></a>
+      <a id="hasArgName(String,ArgList):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hasArgName</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="args">args: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@hasArgName(n:String,args:org.apache.ignite.visor.visor.ArgList):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Shortcut method that checks if passed in argument list has an argument with given host.</p><div class="fullcomment"><div class="comment cmt"><p>Shortcut method that checks if passed in argument list has an argument with given host.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Argument host to check for existence in this list.</p></dd><dt class="param">args</dt><dd class="cmt"><p>Command argument list.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#hasArgValue" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hasArgValue(v:String,args:org.apache.ignite.visor.visor.ArgList):Boolean"></a>
+      <a id="hasArgValue(String,ArgList):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hasArgValue</span><span class="params">(<span name="v">v: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="args">args: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@hasArgValue(v:String,args:org.apache.ignite.visor.visor.ArgList):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Shortcut method that checks if passed in argument list has an argument with given value.</p><div class="fullcomment"><div class="comment cmt"><p>Shortcut method that checks if passed in argument list has an argument with given value.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Argument value to check for existence in this list.</p></dd><dt class="param">args</dt><dd class="cmt"><p>Command argument list.</p></dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@hashCode():Int" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#help" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="help():Unit"></a>
+      <a id="help():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">help</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@help():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints generic help.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Prints generic help.</p><h4>Example</h4><p>&lt;ex&gt;help&lt;/ex&gt;
+Prints help.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#help" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="help(args:String):Unit"></a>
+      <a id="help(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">help</span><span class="params">(<span name="args">args: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">null</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@help(args:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints help for specific command(s) or for all commands.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Prints help for specific command(s) or for all commands.</p><h4>Example</h4><p>&lt;ex&gt;help&lt;/ex&gt;
+Prints general help.</p><p>&lt;ex&gt;help open&lt;/ex&gt;
+Prints help for 'open' command.
+</p></div><dl class="paramcmts block"><dt class="param">args</dt><dd class="cmt"><p>List of commands to print help for. If empty - prints generic help.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#ignite" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ignite:org.apache.ignite.internal.IgniteEx"></a>
+      <a id="ignite:IgniteEx"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ignite</span><span class="result">: <span class="extype" name="org.apache.ignite.internal.IgniteEx">IgniteEx</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@ignite:org.apache.ignite.internal.IgniteEx" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p>
+    </li><li name="org.apache.ignite.visor.visor#info" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(infoMsgs:Any*):Unit"></a>
+      <a id="info(Any*):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="infoMsgs">infoMsgs: <span class="extype" name="scala.Any">Any</span>*</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@info(infoMsgs:Any*):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints properly formatted info message like:</p><div class="fullcomment"><div class="comment cmt"><p>Prints properly formatted info message like:</p><pre>[INFO]: info message</pre></div><dl class="paramcmts block"><dt class="param">infoMsgs</dt><dd class="cmt"><p>Info messages to print.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#isActive" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isActive:Boolean"></a>
+      <a id="isActive:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isActive</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@isActive:Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Check cluster is active.</p><div class="fullcomment"><div class="comment cmt"><p>Check cluster is active.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>True</code> when cluster is active.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#isConnected" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isConnected:Boolean"></a>
+      <a id="isConnected:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isConnected</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@isConnected:Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Tests whether or not Visor console is connected.</p><div class="fullcomment"><div class="comment cmt"><p>Tests whether or not Visor console is connected.
+</p></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p><code>True</code> if Visor console is connected.</p></dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#javaBoolToStr" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="javaBoolToStr(bool:Boolean,ifNull:Boolean):String"></a>
+      <a id="javaBoolToStr(Boolean,Boolean):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">javaBoolToStr</span><span class="params">(<span name="bool">bool: <span class="extype" name="java.lang.Boolean">Boolean</span></span>, <span name="ifNull">ifNull: <span class="extype" name="scala.Boolean">Boolean</span> = <span class="symbol">false</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@javaBoolToStr(bool:Boolean,ifNull:Boolean):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Converts <code>java.lang.Boolean</code> to 'on'/'off' string.</p><div class="fullcomment"><div class="comment cmt"><p>Converts <code>java.lang.Boolean</code> to 'on'/'off' string.
+</p></div><dl class="paramcmts block"><dt class="param">bool</dt><dd class="cmt"><p>Boolean value.</p></dd><dt class="param">ifNull</dt><dd class="cmt"><p>Default value in case if <code>bool</code> is <code>null</code>.</p></dd><dt>returns</dt><dd class="cmt"><p>String.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#log" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="log(args:String):Unit"></a>
+      <a id="log(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">log</span><span class="params">(<span name="args">args: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@log(args:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Starts or stops logging.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Starts or stops logging.</p><h4>Examples</h4><p>&lt;ex&gt;log -l -f=/home/user/visor-log&lt;/ex&gt;
+Starts logging to file <code>visor-log</code> located at <code>/home/user</code>.
+<br>
+&lt;ex&gt;log -l -f=log/visor-log&lt;/ex&gt;
+Starts logging to file <code>visor-log</code> located at &amp;lt<code>Ignite home folder</code>&amp;gt<code>/log</code>.
+<br>
+&lt;ex&gt;log -l -p=20&lt;/ex&gt;
+Starts logging with querying events period of 20 seconds.
+<br>
+&lt;ex&gt;log -l -t=30&lt;/ex&gt;
+Starts logging with topology snapshot logging period of 30 seconds.
+<br>
+&lt;ex&gt;log -s&lt;/ex&gt;
+Stops logging.
+</p></div><dl class="paramcmts block"><dt class="param">args</dt><dd class="cmt"><p>Command arguments.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#log" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="log():Unit"></a>
+      <a id="log():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">log</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@log():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints log status.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Prints log status.</p><h4>Examples</h4><p>&lt;ex&gt;log&lt;/ex&gt;
+Prints log status.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#logText" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logText(msg:String):Unit"></a>
+      <a id="logText(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logText</span><span class="params">(<span name="msg">msg: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@logText(msg:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Logs text message.</p><div class="fullcomment"><div class="comment cmt"><p>Logs text message.
+</p></div><dl class="paramcmts block"><dt class="param">msg</dt><dd class="cmt"><p>Message to log.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#makeArg" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="makeArg(arg:org.apache.ignite.visor.visor.Arg):String"></a>
+      <a id="makeArg(Arg):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">makeArg</span><span class="params">(<span name="arg">arg: <a href="#Arg=(String,String)" class="extmbr" name="org.apache.ignite.visor.visor.Arg">Arg</a></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@makeArg(arg:org.apache.ignite.visor.visor.Arg):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Reconstructs string presentation for given argument.</p><div class="fullcomment"><div class="comment cmt"><p>Reconstructs string presentation for given argument.
+</p></div><dl class="paramcmts block"><dt class="param">arg</dt><dd class="cmt"><p>Argument to reconstruct.</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Nullable</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#makeArgs" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="makeArgs(args:org.apache.ignite.visor.visor.ArgList):String"></a>
+      <a id="makeArgs(ArgList):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">makeArgs</span><span class="params">(<span name="args">args: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@makeArgs(args:org.apache.ignite.visor.visor.ArgList):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Reconstructs string presentation for given argument list.</p><div class="fullcomment"><div class="comment cmt"><p>Reconstructs string presentation for given argument list.
+</p></div><dl class="paramcmts block"><dt class="param">args</dt><dd class="cmt"><p>Argument list to reconstruct.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#makeExpression" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="makeExpression(s:String):Option[Long=&gt;Boolean]"></a>
+      <a id="makeExpression(String):Option[(Long)⇒Boolean]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">makeExpression</span><span class="params">(<span name="s">s: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[(<span class="extype" name="scala.Long">Long</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@makeExpression(s:String):Option[Long=&gt;Boolean]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Parses string containing mnemonic predicate and returns Scala predicate.</p><div class="fullcomment"><div class="comment cmt"><p>Parses string containing mnemonic predicate and returns Scala predicate.
+</p></div><dl class="paramcmts block"><dt class="param">s</dt><dd class="cmt"><p>Mnemonic predicate.</p></dd><dt>returns</dt><dd class="cmt"><p>Long to Boolean predicate or null if predicate cannot be created.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mclear" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="mclear():Unit"></a>
+      <a id="mclear():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mclear</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mclear():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Clears all Visor console memory.</p>
+    </li><li name="org.apache.ignite.visor.visor#mclear" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mclear(arg:String):Unit"></a>
+      <a id="mclear(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mclear</span><span class="params">(<span name="arg">arg: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mclear(arg:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Clears given Visor console variable or the whole namespace.</p><div class="fullcomment"><div class="comment cmt"><p>Clears given Visor console variable or the whole namespace.
+</p></div><dl class="paramcmts block"><dt class="param">arg</dt><dd class="cmt"><p>Variable host or namespace mnemonic.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mcompact" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mcompact():Unit"></a>
+      <a id="mcompact():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mcompact</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mcompact():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Fills gap in Visor console memory variables.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Fills gap in Visor console memory variables.</p><h4>Examples</h4><p>&lt;ex&gt;mcompact&lt;/ex&gt;
+Fills gap in Visor console memory variables.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#messageNodeNotFound" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="messageNodeNotFound(nodeOpt:Option[org.apache.ignite.cluster.ClusterNode],cacheName:String):String"></a>
+      <a id="messageNodeNotFound(Option[ClusterNode],String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">messageNodeNotFound</span><span class="params">(<span name="nodeOpt">nodeOpt: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span>]</span>, <span name="cacheName">cacheName: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@messageNodeNotFound(nodeOpt:Option[org.apache.ignite.cluster.ClusterNode],cacheName:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">nodeOpt</dt><dd class="cmt"><p>Node.</p></dd><dt class="param">cacheName</dt><dd class="cmt"><p>Cache name.</p></dd><dt>returns</dt><dd class="cmt"><p>Message about why node was not found.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mfind" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mfind(v:String):Seq[(String,String)]"></a>
+      <a id="mfind(String):Seq[(String,String)]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mfind</span><span class="params">(<span name="v">v: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Seq">Seq</span>[(<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>)]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mfind(v:String):Seq[(String,String)]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Finds variables by its value.</p><div class="fullcomment"><div class="comment cmt"><p>Finds variables by its value.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Value to find by.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mfindHead" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mfindHead(v:String):Option[(String,String)]"></a>
+      <a id="mfindHead(String):Option[(String,String)]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mfindHead</span><span class="params">(<span name="v">v: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[(<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Predef.String">String</span>)]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mfindHead(v:String):Option[(String,String)]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Finds variable by its value.</p><div class="fullcomment"><div class="comment cmt"><p>Finds variable by its value.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Value to find by.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mget" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="mget():Unit"></a>
+      <a id="mget():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mget</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mget():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Trap for missing arguments.</p>
+    </li><li name="org.apache.ignite.visor.visor#mget" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mget(n:String):Unit"></a>
+      <a id="mget(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mget</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mget(n:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets Visor console memory variable.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Gets Visor console memory variable. Note that this method <b>does not</b>
+perform variable substitution on its parameters.</p><h4>Examples</h4><p>&lt;ex&gt;mget @a&lt;/ex&gt;
+Gets the value for Visor console variable '@a'.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Name of the variable.</p></dd><dt>returns</dt><dd class="cmt"><p>Variable value or <code>null</code> if such variable doesn't exist or its value was set as <code>null</code>.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mgetOpt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mgetOpt(n:String):Option[String]"></a>
+      <a id="mgetOpt(String):Option[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mgetOpt</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mgetOpt(n:String):Option[String]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets Visor console memory variable.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Gets Visor console memory variable. Note that this method <b>does not</b>
+perform variable substitution on its parameters.</p><h4>Examples</h4><p>&lt;ex&gt;mgetOpt a&lt;/ex&gt;
+Gets the value as an option for Visor console variable 'a'.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Name of the variable.</p></dd><dt>returns</dt><dd class="cmt"><p>Variable host as an option.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mlist" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mlist():Unit"></a>
+      <a id="mlist():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mlist</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mlist():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Lists all Visor console memory.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Lists all Visor console memory.</p><h4>Examples</h4><p>&lt;ex&gt;mlist&lt;/ex&gt;
+Lists all variables in Visor console memory.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#mlist" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mlist(arg:String):Unit"></a>
+      <a id="mlist(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mlist</span><span class="params">(<span name="arg">arg: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mlist(arg:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Lists Visor console memory variables.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Lists Visor console memory variables.</p><h4>Examples</h4><p>&lt;ex&gt;mlist ac&lt;/ex&gt;
+Lists variables that start with <code>a</code> or <code>c</code> from Visor console memory.</p><p>&lt;ex&gt;mlist&lt;/ex&gt;
+Lists all variables from Visor console memory.
+</p></div><dl class="paramcmts block"><dt class="param">arg</dt><dd class="cmt"><p>String that contains start characters of listed variables.
+     If empty - all variables will be listed.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#mset" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="mset(n:String,v:String):String"></a>
+      <a id="mset(String,String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">mset</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="v">v: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@mset(n:String,v:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Sets Visor console memory variable.</p><div class="fullcomment"><div class="comment cmt"><p>Sets Visor console memory variable. Note that this method <b>does not</b>
+perform variable substitution on its parameters.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Name of the variable. Can't be <code>null</code>.</p></dd><dt class="param">v</dt><dd class="cmt"><p>Value of the variable. Can't be <code>null</code>.</p></dd><dt>returns</dt><dd class="cmt"><p>Previous value.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#msetOpt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="msetOpt(n:String,v:String):Option[String]"></a>
+      <a id="msetOpt(String,String):Option[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">msetOpt</span><span class="params">(<span name="n">n: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="v">v: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@msetOpt(n:String,v:String):Option[String]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Sets Visor console memory variable.</p><div class="fullcomment"><div class="comment cmt"><p>Sets Visor console memory variable. Note that this method <b>does not</b>
+perform variable substitution on its parameters.
+</p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Name of the variable. Can't be <code>null</code>.</p></dd><dt class="param">v</dt><dd class="cmt"><p>Value of the variable. Can't be <code>null</code>.</p></dd><dt>returns</dt><dd class="cmt"><p>Previous value as an option.</p></dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#nid8" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nid8(nid:java.util.UUID):String"></a>
+      <a id="nid8(UUID):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nid8</span><span class="params">(<span name="nid">nid: <span class="extype" name="java.util.UUID">UUID</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@nid8(nid:java.util.UUID):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Transform node ID to ID8 string.</p><div class="fullcomment"><div class="comment cmt"><p>Transform node ID to ID8 string.
+</p></div><dl class="paramcmts block"><dt class="param">nid</dt><dd class="cmt"><p>Node ID.</p></dd><dt>returns</dt><dd class="cmt"><p>Node ID in ID8 format.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#nid8" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nid8(node:org.apache.ignite.cluster.ClusterNode):String"></a>
+      <a id="nid8(ClusterNode):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nid8</span><span class="params">(<span name="node">node: <span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@nid8(node:org.apache.ignite.cluster.ClusterNode):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Transform node ID to ID8 string.</p><div class="fullcomment"><div class="comment cmt"><p>Transform node ID to ID8 string.
+</p></div><dl class="paramcmts block"><dt class="param">node</dt><dd class="cmt"><p>Node to take ID from.</p></dd><dt>returns</dt><dd class="cmt"><p>Node ID in ID8 format.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#nl" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="nl():Unit"></a>
+      <a id="nl():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nl</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@nl():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Shortcut for <code>println()</code>.</p>
+    </li><li name="org.apache.ignite.visor.visor#node" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="node(nid:java.util.UUID):org.apache.ignite.cluster.ClusterNode"></a>
+      <a id="node(UUID):ClusterNode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">node</span><span class="params">(<span name="nid">nid: <span class="extype" name="java.util.UUID">UUID</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@node(nid:java.util.UUID):org.apache.ignite.cluster.ClusterNode" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Get grid node for specified ID.</p><div class="fullcomment"><div class="comment cmt"><p>Get grid node for specified ID.
+</p></div><dl class="paramcmts block"><dt class="param">nid</dt><dd class="cmt"><p>Node ID.</p></dd><dt>returns</dt><dd class="cmt"><p>ClusterNode instance.</p></dd></dl><dl class="attributes block"> <dt>Exceptions thrown</dt><dd><span class="cmt"><p><span class="extype" name="IgniteException"><code>IgniteException</code></span> if Visor is disconnected or node not found.</p></span></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#nodeById8" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nodeById8(id8:String):Iterable[org.apache.ignite.cluster.ClusterNode]"></a>
+      <a id="nodeById8(String):Iterable[ClusterNode]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nodeById8</span><span class="params">(<span name="id8">id8: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Iterable">Iterable</span>[<span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@nodeById8(id8:String):Iterable[org.apache.ignite.cluster.ClusterNode]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Get node by ID8 string.</p><div class="fullcomment"><div class="comment cmt"><p>Get node by ID8 string.
+</p></div><dl class="paramcmts block"><dt class="param">id8</dt><dd class="cmt"><p>Node ID in ID8 format.</p></dd><dt>returns</dt><dd class="cmt"><p>Collection of nodes that has specified ID8.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#nodeId8" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nodeId8(id:java.util.UUID):String"></a>
+      <a id="nodeId8(UUID):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nodeId8</span><span class="params">(<span name="id">id: <span class="extype" name="java.util.UUID">UUID</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@nodeId8(id:java.util.UUID):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string with node id8 and its memory variable, if available.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string with node id8 and its memory variable, if available.
+</p></div><dl class="paramcmts block"><dt class="param">id</dt><dd class="cmt"><p>Node ID.</p></dd><dt>returns</dt><dd class="cmt"><p>String.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#nodeId8Addr" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="nodeId8Addr(id:java.util.UUID):String"></a>
+      <a id="nodeId8Addr(UUID):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">nodeId8Addr</span><span class="params">(<span name="id">id: <span class="extype" name="java.util.UUID">UUID</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@nodeId8Addr(id:java.util.UUID):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Returns string with node id8, its memory variable, if available, and its
+IP address (first internal address), if node is alive.</p><div class="fullcomment"><div class="comment cmt"><p>Returns string with node id8, its memory variable, if available, and its
+IP address (first internal address), if node is alive.
+</p></div><dl class="paramcmts block"><dt class="param">id</dt><dd class="cmt"><p>Node ID.</p></dd><dt>returns</dt><dd class="cmt"><p>String.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#noop" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="noop():Unit"></a>
+      <a id="noop():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">noop</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@noop():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@notify():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@notifyAll():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#open" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="open(igniteInstanceName:String,cfgPath:String):Unit"></a>
+      <a id="open(String,String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">open</span><span class="params">(<span name="igniteInstanceName">igniteInstanceName: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="cfgPath">cfgPath: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@open(igniteInstanceName:String,cfgPath:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Connects Visor console to configuration with path.</p><div class="fullcomment"><div class="comment cmt"><p>Connects Visor console to configuration with path.
+</p></div><dl class="paramcmts block"><dt class="param">igniteInstanceName</dt><dd class="cmt"><p>Name of Ignite instance.</p></dd><dt class="param">cfgPath</dt><dd class="cmt"><p>Configuration path.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#parseArgs" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="parseArgs(args:String):org.apache.ignite.visor.visor.ArgList"></a>
+      <a id="parseArgs(String):ArgList"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">parseArgs</span><span class="params">(<span name="args">args: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@parseArgs(args:String):org.apache.ignite.visor.visor.ArgList" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Utility method that parses command arguments.</p><div class="fullcomment"><div class="comment cmt"><p>Utility method that parses command arguments. Arguments represented as a string
+into argument list represented as list of tuples (host, value) performing
+variable substitution:</p><p><code>-p=@n</code> - A named parameter where <code>@n</code> will be considered as a reference to variable named <code>n</code>.
+<code>@ n</code> - An unnamed parameter where <code>@n</code> will be considered as a reference to variable named <code>n</code>.
+<code>-p</code> - A flag doesn't support variable substitution.</p><p>Note that recursive substitution isn't supported. If specified variable isn't set - the value
+starting with <code>@</code> will be used as-is.
+</p></div><dl class="paramcmts block"><dt class="param">args</dt><dd class="cmt"><p>Command arguments to parse.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#parseNode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="parseNode(argLst:org.apache.ignite.visor.visor.ArgList):Either[String,Option[org.apache.ignite.cluster.ClusterNode]]"></a>
+      <a id="parseNode(ArgList):Either[String,Option[ClusterNode]]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">parseNode</span><span class="params">(<span name="argLst">argLst: <a href="#ArgList=Seq[org.apache.ignite.visor.visor.Arg]" class="extmbr" name="org.apache.ignite.visor.visor.ArgList">ArgList</a></span>)</span><span class="result">: <span class="extype" name="scala.Either">Either</span>[<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.apache.ignite.cluster.ClusterNode">ClusterNode</span>]]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@parseNode(argLst:org.apache.ignite.visor.visor.ArgList):Either[String,Option[org.apache.ignite.cluster.ClusterNode]]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Extract node from command arguments.</p><div class="fullcomment"><div class="comment cmt"><p>Extract node from command arguments.
+</p></div><dl class="paramcmts block"><dt class="param">argLst</dt><dd class="cmt"><p>Command arguments.</p></dd><dt>returns</dt><dd class="cmt"><p>Error message or node ref.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#pool" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="pool:java.util.concurrent.ExecutorService"></a>
+      <a id="pool:ExecutorService"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">pool</span><span class="result">: <span class="extype" name="java.util.concurrent.ExecutorService">ExecutorService</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@pool:java.util.concurrent.ExecutorService" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Internal thread pool.</p>
+    </li><li name="org.apache.ignite.visor.visor#prevIgnite" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="prevIgnite:Option[org.apache.ignite.internal.IgniteEx]"></a>
+      <a id="prevIgnite:Option[IgniteEx]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">prevIgnite</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="org.apache.ignite.internal.IgniteEx">IgniteEx</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@prevIgnite:Option[org.apache.ignite.internal.IgniteEx]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p>
+    </li><li name="org.apache.ignite.visor.visor#quiet" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="quiet:Boolean"></a>
+      <a id="quiet:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">quiet</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@quiet:Boolean" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Quiet mode to disable internal node log and information messages output.</p>
+    </li><li name="org.apache.ignite.visor.visor#quit" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="quit():Unit"></a>
+      <a id="quit():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">quit</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@quit():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">quit from Visor console.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>quit from Visor console.</p><h4>Examples</h4><p>&lt;ex&gt;quit&lt;/ex&gt;
+Quit from Visor console.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#reader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="reader(reader:jline.console.ConsoleReader):Unit"></a>
+      <a id="reader(ConsoleReader):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">reader</span><span class="params">(<span name="reader">reader: <span class="extype" name="jline.console.ConsoleReader">ConsoleReader</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@reader(reader:jline.console.ConsoleReader):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#removeCloseCallback" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="removeCloseCallback(f:()=&gt;Unit):Unit"></a>
+      <a id="removeCloseCallback(()⇒Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">removeCloseCallback</span><span class="params">(<span name="f">f: () ⇒ <span class="extype" name="scala.Unit">Unit</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@removeCloseCallback(f:()=&gt;Unit):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Removes close callback.</p><div class="fullcomment"><div class="comment cmt"><p>Removes close callback.
+</p></div><dl class="paramcmts block"><dt class="param">f</dt><dd class="cmt"><p>Close callback to remove.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#removeCloseCallbacks" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="removeCloseCallbacks():Unit"></a>
+      <a id="removeCloseCallbacks():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">removeCloseCallbacks</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@removeCloseCallbacks():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Removes all close callbacks.</p>
+    </li><li name="org.apache.ignite.visor.visor#safe" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="safe(a:Any,dflt:Any):String"></a>
+      <a id="safe(Any,Any):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">safe</span><span class="params">(<span name="a">a: <span class="extype" name="scala.Any">Any</span></span>, <span name="dflt">dflt: <span class="extype" name="scala.Any">Any</span> = <span class="symbol"><span class="name"><a href="#NA:String(&quot;&lt;n/a&gt;&quot;)">NA</a></span></span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@safe(a:Any,dflt:Any):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets a non-<code>null</code> value for given parameter.</p><div class="fullcomment"><div class="comment cmt"><p>Gets a non-<code>null</code> value for given parameter.
+</p></div><dl class="paramcmts block"><dt class="param">a</dt><dd class="cmt"><p>Parameter.</p></dd><dt class="param">dflt</dt><dd class="cmt"><p>Value to return if <code>a</code> is <code>null</code>.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#safePercent" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="safePercent(v:Double):String"></a>
+      <a id="safePercent(Double):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">safePercent</span><span class="params">(<span name="v">v: <span class="extype" name="scala.Double">Double</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@safePercent(v:Double):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Guards against invalid percent readings.</p><div class="fullcomment"><div class="comment cmt"><p>Guards against invalid percent readings.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Value in '%' to guard.</p></dd><dt>returns</dt><dd class="cmt"><p>Percent as string. Any value below <code>0</code> and greater than <code>100</code> will return <code>&lt;n/a&gt;</code> string.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#searchCmd" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="searchCmd(cmd:String):Option[org.apache.ignite.visor.VisorCommandHolder]"></a>
+      <a id="searchCmd(String):Option[VisorCommandHolder]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">searchCmd</span><span class="params">(<span name="cmd">cmd: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<a href="VisorCommandHolder.html" class="extype" name="org.apache.ignite.visor.VisorCommandHolder">VisorCommandHolder</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@searchCmd(cmd:String):Option[org.apache.ignite.visor.VisorCommandHolder]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="org.apache.ignite.visor.visor#setVar" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setVar(v:AnyRef,prefix:String):String"></a>
+      <a id="setVar(AnyRef,String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setVar</span><span class="params">(<span name="v">v: <span class="extype" name="scala.AnyRef">AnyRef</span></span>, <span name="prefix">prefix: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@setVar(v:AnyRef,prefix:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Creates a new variable with given value and returns its host.</p><div class="fullcomment"><div class="comment cmt"><p>Creates a new variable with given value and returns its host.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Value.</p></dd><dt class="param">prefix</dt><dd class="cmt"><p>Variable host prefix.</p></dd><dt>returns</dt><dd class="cmt"><p>New variable host.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#setVarIfAbsent" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setVarIfAbsent(v:AnyRef,prefix:String):String"></a>
+      <a id="setVarIfAbsent(AnyRef,String):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setVarIfAbsent</span><span class="params">(<span name="v">v: <span class="extype" name="scala.AnyRef">AnyRef</span></span>, <span name="prefix">prefix: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@setVarIfAbsent(v:AnyRef,prefix:String):String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">If variable with given value and prefix doesn't exist - creates
+a new variable with given value and returns its host.</p><div class="fullcomment"><div class="comment cmt"><p>If variable with given value and prefix doesn't exist - creates
+a new variable with given value and returns its host. Otherwise,
+returns an existing variable host.
+</p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p>Value.</p></dd><dt class="param">prefix</dt><dd class="cmt"><p>Variable host prefix.</p></dd><dt>returns</dt><dd class="cmt"><p>Existing variable host or the new variable host.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#status" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="status():Unit"></a>
+      <a id="status():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">status</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@status():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints Visor console status (with ASCII logo).</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Prints Visor console status (with ASCII logo).</p><h4>Example</h4><p>&lt;ex&gt;status&lt;/ex&gt;
+Prints Visor console status.
+</p></div></div>
+    </li><li name="org.apache.ignite.visor.visor#status" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="status(args:String):Unit"></a>
+      <a id="status(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">status</span><span class="params">(<span name="args">args: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@status(args:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints Visor console status.</p><div class="fullcomment"><div class="comment cmt"><h4>Command</h4><p>Prints Visor console status.</p><h4>Example</h4><p>&lt;ex&gt;status -q&lt;/ex&gt;
+Prints Visor console status without ASCII logo.
+</p></div><dl class="paramcmts block"><dt class="param">args</dt><dd class="cmt"><p>Optional &quot;-q&quot; flag to disable ASCII logo printout.</p></dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#timeFilter" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="timeFilter(timeArg:Option[String]):Long"></a>
+      <a id="timeFilter(Option[String]):Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">timeFilter</span><span class="params">(<span name="timeArg">timeArg: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@timeFilter(timeArg:Option[String]):Long" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Decode time frame from string.</p><div class="fullcomment"><div class="comment cmt"><p>Decode time frame from string.
+</p></div><dl class="paramcmts block"><dt class="param">timeArg</dt><dd class="cmt"><p>Optional time frame: &lt;num&gt;s|m|h|d</p></dd><dt>returns</dt><dd class="cmt"><p>Time in milliseconds.</p></dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#toReturnable" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toReturnable(v:Any):AnyRef{def^^:Unit}"></a>
+      <a id="toReturnable(Any):AnyRef{def^^:Unit}"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toReturnable</span><span class="params">(<span name="v">v: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span> { def ^^: Unit }</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@toReturnable(v:Any):AnyRef{def^^:Unit}" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Introduction of <code>^^<code> operator for </code>Any<code> type that will call </code>break<code>.
+</code></code></p><div class="fullcomment"><div class="comment cmt"><p>Introduction of <code>^^<code> operator for </code>Any<code> type that will call </code>break<code>.
+</code></code></p></div><dl class="paramcmts block"><dt class="param">v</dt><dd class="cmt"><p><code>Any</code> value.</p></dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@toString():String" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#toTaskArgument" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="toTaskArgument[A](nids:Iterable[java.util.UUID],arg:A):org.apache.ignite.internal.visor.VisorTaskArgument[A]"></a>
+      <a id="toTaskArgument[A](Iterable[UUID],A):VisorTaskArgument[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toTaskArgument</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="nids">nids: <span class="extype" name="scala.Iterable">Iterable</span>[<span class="extype" name="java.util.UUID">UUID</span>]</span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.toTaskArgument.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.internal.visor.VisorTaskArgument">VisorTaskArgument</span>[<span class="extype" name="org.apache.ignite.visor.visor.toTaskArgument.A">A</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@toTaskArgument[A](nids:Iterable[java.util.UUID],arg:A):org.apache.ignite.internal.visor.VisorTaskArgument[A]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert to task argument.</p>
+    </li><li name="org.apache.ignite.visor.visor#toTaskArgument" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="toTaskArgument[A](nid:java.util.UUID,arg:A):org.apache.ignite.internal.visor.VisorTaskArgument[A]"></a>
+      <a id="toTaskArgument[A](UUID,A):VisorTaskArgument[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toTaskArgument</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="nid">nid: <span class="extype" name="java.util.UUID">UUID</span></span>, <span name="arg">arg: <span class="extype" name="org.apache.ignite.visor.visor.toTaskArgument.A">A</span></span>)</span><span class="result">: <span class="extype" name="org.apache.ignite.internal.visor.VisorTaskArgument">VisorTaskArgument</span>[<span class="extype" name="org.apache.ignite.visor.visor.toTaskArgument.A">A</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@toTaskArgument[A](nid:java.util.UUID,arg:A):org.apache.ignite.internal.visor.VisorTaskArgument[A]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert to task argument.</p>
+    </li><li name="org.apache.ignite.visor.visor#uptime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="uptime:Long"></a>
+      <a id="uptime:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">uptime</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@uptime:Long" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Gets visor uptime.</p>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@wait():Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@wait(x$1:Long):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.ignite.visor.visor#warn" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(warnMsgs:Any*):Unit"></a>
+      <a id="warn(Any*):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="warnMsgs">warnMsgs: <span class="extype" name="scala.Any">Any</span>*</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#org.apache.ignite.visor.visor$@warn(warnMsgs:Any*):Unit" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Prints properly formatted error message like:</p><div class="fullcomment"><div class="comment cmt"><p>Prints properly formatted error message like:</p><pre>[WARN]: warning message</pre></div><dl class="paramcmts block"><dt class="param">warnMsgs</dt><dd class="cmt"><p>Warning messages to print</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="org.apache.ignite.visor.VisorTag">
+              <h3>Inherited from <a href="VisorTag.html" class="extype" name="org.apache.ignite.visor.VisorTag">VisorTag</a></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

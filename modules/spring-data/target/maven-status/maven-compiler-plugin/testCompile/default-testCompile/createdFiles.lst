@@ -1,0 +1,7 @@
+org/apache/ignite/springdata/IgniteSpringDataCrudSelfTest.class
+org/apache/ignite/springdata/misc/Person.class
+org/apache/ignite/testsuites/IgniteSpringDataTestSuite.class
+org/apache/ignite/springdata/misc/PersonSecondRepository.class
+org/apache/ignite/springdata/IgniteSpringDataQueriesSelfTest.class
+org/apache/ignite/springdata/misc/ApplicationConfiguration.class
+org/apache/ignite/springdata/misc/PersonRepository.class

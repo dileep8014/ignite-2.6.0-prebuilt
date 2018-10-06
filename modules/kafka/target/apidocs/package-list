@@ -1,0 +1,3 @@
+org.apache.ignite.stream.kafka
+org.apache.ignite.stream.kafka.connect
+org.apache.ignite.stream.kafka.connect.serialization

@@ -1,0 +1,2 @@
+org/apache/ignite/testsuites/IgniteJclTestSuite.class
+org/apache/ignite/logger/jcl/JclLoggerTest.class

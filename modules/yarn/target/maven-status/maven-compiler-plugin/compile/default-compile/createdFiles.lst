@@ -1,0 +1,7 @@
+org/apache/ignite/yarn/IgniteContainer.class
+org/apache/ignite/yarn/ClusterProperties.class
+org/apache/ignite/yarn/IgniteProvider$VersionComparator.class
+org/apache/ignite/yarn/ApplicationMaster.class
+org/apache/ignite/yarn/IgniteYarnClient.class
+org/apache/ignite/yarn/utils/IgniteYarnUtils.class
+org/apache/ignite/yarn/IgniteProvider.class

@@ -1,0 +1,3 @@
+org/apache/ignite/stream/flume/IgniteSinkConstants.class
+org/apache/ignite/stream/flume/IgniteSink.class
+org/apache/ignite/stream/flume/EventTransformer.class

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip basedir="target/site/scaladocs" destfile="target/ignite-visor-console-2.6.0-javadoc.jar" encoding="UTF-8"/>
+</target>
+</project>

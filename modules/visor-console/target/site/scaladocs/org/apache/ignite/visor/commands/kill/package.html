@@ -1,0 +1,193 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>kill - Ignite Console Visor - org.apache.ignite.visor.commands.kill</title>
+          <meta name="description" content="kill - Ignite Console Visor - org.apache.ignite.visor.commands.kill" />
+          <meta name="keywords" content="kill Ignite Console Visor org.apache.ignite.visor.commands.kill" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../index.html';
+            var hash = 'org.apache.ignite.visor.commands.kill.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../../package.html" class="extype" name="org">org</a>.<a href="../../../../package.html" class="extype" name="org.apache">apache</a>.<a href="../../../package.html" class="extype" name="org.apache.ignite">ignite</a>.<a href="../../package.html" class="extype" name="org.apache.ignite.visor">visor</a>.<a href="../package.html" class="extype" name="org.apache.ignite.visor.commands">commands</a></p>
+        <h1>kill</h1><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.kill.package" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">kill</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.apache.ignite.visor.commands.kill.VisorKillCommand" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="VisorKillCommandextendsVisorConsoleCommand"></a>
+      <a id="VisorKillCommand:VisorKillCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorKillCommand.html"><span class="name">VisorKillCommand</span></a><span class="result"> extends <a href="../common/VisorConsoleCommand.html" class="extype" name="org.apache.ignite.visor.commands.common.VisorConsoleCommand">VisorConsoleCommand</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.kill.package@VisorKillCommandextendsVisorConsoleCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Contains Visor command <code>kill</code> implementation.</p><div class="fullcomment"><div class="comment cmt"><h4>Overview</h4><p>Contains Visor command <code>kill</code> implementation.</p><h4>Help</h4><pre>+--------------------------------+
+| kill | Kills or restarts node. |
++--------------------------------+</pre><h6>Specification</h6><pre>kill
+kill <span class="lit">"-in|-ih"</span>
+kill <span class="lit">"{-r|-k} {-sc} {-al|-ar|-id8=<node-id8>|-id=<node-id>}"</span></pre><h6>Arguments</h6><pre>-in
+    Run command in interactive mode <span class="kw">with</span> ability to
+    choose a node to kill or restart.
+    Note that either <span class="lit">'-in'</span> or <span class="lit">'-ih'</span> can be specified.
+
+    This mode is used by default.
+-ih
+    Run command in interactive mode <span class="kw">with</span> ability to
+    choose a host where to kill or restart nodes.
+    Note that either <span class="lit">'-in'</span> or <span class="lit">'-ih'</span> can be specified.
+-al
+    Kill or restart all nodes on <span class="kw">this</span> host.
+    Note that either <span class="lit">'-al'</span> or <span class="lit">'-ar'</span> can be specified.
+-ar
+    Kill or restart all nodes on other hosts.
+    Note that either <span class="lit">'-al'</span>, <span class="lit">'-ar'</span> can be specified.
+-sc
+    Skip kill or restart of client nodes <span class="kw">for</span> group nodes command.
+-r
+    Restart node mode.
+    Note that either <span class="lit">'-r'</span> or <span class="lit">'-k'</span> can be specified.
+    If no other parameters provided - command executes on all nodes.
+-k
+    Kill (stop) node mode.
+    Note that either <span class="lit">'-r'</span> or <span class="lit">'-k'</span> can be specified.
+    If no other parameters provided - command executes on all nodes.
+-id8=&lt;node-id8&gt;
+    ID8 of the node to kill or restart.
+    Note that either <span class="lit">'-id8'</span> or <span class="lit">'-id'</span> should be specified.
+    You can also use <span class="lit">'@n0'</span> ... <span class="lit">'@nn'</span> variables as a shortcut <span class="kw">for</span> &lt;node-id8&gt;.
+    To specify oldest node on the same host as visor use variable <span class="lit">'@nl'</span>.
+    To specify oldest node on other hosts that are not running visor use variable <span class="lit">'@nr'</span>.
+    If no parameters provided - command starts in interactive mode.
+-id=&lt;node-id&gt;
+    ID of the node to kill or restart.
+    Note that either <span class="lit">'-id8'</span> or <span class="lit">'-id'</span> can be specified.
+    If no parameters provided - command starts in interactive mode.</pre><h6>Examples</h6><pre>kill
+    Starts command in interactive mode.
+kill <span class="lit">"-id8=12345678 -r"</span>
+    Restart node <span class="kw">with</span> '<span class="num">12345678</span>' ID8.
+kill -id8=@n0 -r<span class="lit">" ->
+    Restart specified node with id8 taken from 'n0' memory variable.
+kill -id8=@nl -r"</span> -&gt;
+    Restart oldest local node <span class="kw">with</span> id8 taken from <span class="lit">'nl'</span> memory variable.
+kill -id8=@nl -k<span class="lit">" ->
+    Kill (stop) oldest remote node with id8 taken from 'nr' memory variable.
+kill -r -ar"</span> -&gt;
+    Restart all remote nodes.
+kill -k -sc -al<span class="lit">" ->
+    Kill (stop) all local server nodes.
+kill "</span>-k<span class="lit">"
+    Kill (stop) all nodes.</span></pre></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.apache.ignite.visor.commands.kill.VisorKillCommand" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VisorKillCommand"></a>
+      <a id="VisorKillCommand:VisorKillCommand"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="VisorKillCommand$.html"><span class="name">VisorKillCommand</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#org.apache.ignite.visor.commands.kill.package@VisorKillCommand" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object that does initialization of the command.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

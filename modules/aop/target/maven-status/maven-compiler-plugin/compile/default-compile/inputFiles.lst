@@ -1,0 +1,10 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/spring/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/aspectj/GridifySetToSetAspectJAspect.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/spring/GridifySpringAspect.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/spring/GridifySetToSetSpringAspect.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/spring/GridifySetToValueSpringAspect.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/aspectj/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/aspectj/GridifyAspectJAspect.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/aspectj/GridifySetToValueAspectJAspect.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/aop/src/main/java/org/apache/ignite/compute/gridify/aop/spring/GridifySpringEnhancer.java

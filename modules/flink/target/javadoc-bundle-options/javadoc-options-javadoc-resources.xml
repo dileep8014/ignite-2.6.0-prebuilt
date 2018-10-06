@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <groups>
+    <group>
+      <title>Common Grid APIs</title>
+      <packages>org.apache.ignite:org.apache.ignite.cluster:org.apache.ignite.lifecycle:org.apache.ignite.configuration:org.apache.ignite.spi:org.apache.ignite.lang:org.apache.ignite.resources:org.apache.ignite.thread:org.apache.ignite.scheduler</packages>
+    </group>
+    <group>
+      <title>Messaging APIs</title>
+      <packages>org.apache.ignite.messaging</packages>
+    </group>
+    <group>
+      <title>Event Notification APIs</title>
+      <packages>org.apache.ignite.events</packages>
+    </group>
+    <group>
+      <title>Compute Grid APIs</title>
+      <packages>org.apache.ignite.compute*</packages>
+    </group>
+    <group>
+      <title>Data Grid APIs</title>
+      <packages>org.apache.ignite.cache*:org.apache.ignite.transactions:org.apache.ignite.datastructures:org.apache.ignite.dataload</packages>
+    </group>
+    <group>
+      <title>Service Grid APIs</title>
+      <packages>org.apache.ignite.services</packages>
+    </group>
+    <group>
+      <title>File System APIs</title>
+      <packages>org.apache.ignite.igfs*</packages>
+    </group>
+    <group>
+      <title>Hadoop Accelerator APIs</title>
+      <packages>org.apache.ignite.hadoop*</packages>
+    </group>
+    <group>
+      <title>Streaming APIs</title>
+      <packages>org.apache.ignite.streamer*::org.apache.ignite.stream*</packages>
+    </group>
+    <group>
+      <title>Security APIs</title>
+      <packages>org.apache.ignite.plugin.security:org.apache.ignite.ssl</packages>
+    </group>
+    <group>
+      <title>MXBeans classes</title>
+      <packages>org.apache.ignite.mbean:org.apache.ignite.mxbean</packages>
+    </group>
+    <group>
+      <title>SPI: CheckPoint</title>
+      <packages>org.apache.ignite.spi.checkpoint*</packages>
+    </group>
+    <group>
+      <title>SPI: Collision</title>
+      <packages>org.apache.ignite.spi.collision*</packages>
+    </group>
+    <group>
+      <title>SPI: Indexing</title>
+      <packages>org.apache.ignite.spi.indexing*</packages>
+    </group>
+    <group>
+      <title>SPI: Load Balancing</title>
+      <packages>org.apache.ignite.spi.loadbalancing*</packages>
+    </group>
+    <group>
+      <title>SPI: Communication</title>
+      <packages>org.apache.ignite.spi.communication*</packages>
+    </group>
+    <group>
+      <title>SPI: Deployment</title>
+      <packages>org.apache.ignite.spi.deployment*</packages>
+    </group>
+    <group>
+      <title>SPI: Swap Space</title>
+      <packages>org.apache.ignite.spi.swapspace*</packages>
+    </group>
+    <group>
+      <title>SPI: Discovery</title>
+      <packages>org.apache.ignite.spi.discovery*</packages>
+    </group>
+    <group>
+      <title>SPI: Failover</title>
+      <packages>org.apache.ignite.spi.failover*</packages>
+    </group>
+    <group>
+      <title>SPI: Event Storage</title>
+      <packages>org.apache.ignite.spi.eventstorage*</packages>
+    </group>
+    <group>
+      <title>Communication Failure Detection</title>
+      <packages>org.apache.ignite.failure</packages>
+    </group>
+    <group>
+      <title>Segmentation Detection</title>
+      <packages>org.apache.ignite.plugin.segmentation</packages>
+    </group>
+    <group>
+      <title>Ignite plugin API</title>
+      <packages>org.apache.ignite.plugin*</packages>
+    </group>
+    <group>
+      <title>Logging</title>
+      <packages>org.apache.ignite.logger*</packages>
+    </group>
+    <group>
+      <title>Loaders</title>
+      <packages>org.apache.ignite.startup*</packages>
+    </group>
+    <group>
+      <title>Marshallers</title>
+      <packages>org.apache.ignite.marshaller*</packages>
+    </group>
+    <group>
+      <title>Ignite Binary Objects API</title>
+      <packages>org.apache.ignite.binary*</packages>
+    </group>
+    <group>
+      <title>Visor Plugins</title>
+      <packages>org.apache.ignite.visor.plugin</packages>
+    </group>
+    <group>
+      <title>Spring Integration</title>
+      <packages>org.apache.ignite.cache.spring:org.apache.ignite.transactions.spring</packages>
+    </group>
+    <group>
+      <title>Mesos Framework</title>
+      <packages>org.apache.ignite.mesos*</packages>
+    </group>
+    <group>
+      <title>Yarn Integration</title>
+      <packages>org.apache.ignite.yarn*</packages>
+    </group>
+    <group>
+      <title>Platforms</title>
+      <packages>org.apache.ignite.platform*</packages>
+    </group>
+    <group>
+      <title>Spark Integration</title>
+      <packages>org.apache.ignite.spark.examples.java</packages>
+    </group>
+    <group>
+      <title>OSGi integration</title>
+      <packages>org.apache.ignite.osgi*</packages>
+    </group>
+    <group>
+      <title>Flink integration</title>
+      <packages>org.apache.ignite.sink.flink*</packages>
+    </group>
+    <group>
+      <title>SpringData integration</title>
+      <packages>org.apache.ignite.springdata.repository*</packages>
+    </group>
+    <group>
+      <title>RocketMQ integration</title>
+      <packages>org.apache.ignite.stream.rocketmq*</packages>
+    </group>
+    <group>
+      <title>Storm integration</title>
+      <packages>org.apache.ignite.stream.storm*</packages>
+    </group>
+    <group>
+      <title>Ignite Development Utils</title>
+      <packages>org.apache.ignite.development.utils*</packages>
+    </group>
+    <group>
+      <title>Ignite ML</title>
+      <packages>org.apache.ignite.ml*</packages>
+    </group>
+  </groups>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <taglets>
+    <taglet>
+      <tagletClass>org.apache.ignite.tools.javadoc.IgniteLinkTaglet</tagletClass>
+      <tagletArtifact>
+        <groupId>org.apache.ignite</groupId>
+        <artifactId>ignite-tools</artifactId>
+        <version>2.6.0</version>
+      </tagletArtifact>
+    </taglet>
+  </taglets>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <links>
+    <link>http://hadoop.apache.org/docs/current/api/</link>
+  </links>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>

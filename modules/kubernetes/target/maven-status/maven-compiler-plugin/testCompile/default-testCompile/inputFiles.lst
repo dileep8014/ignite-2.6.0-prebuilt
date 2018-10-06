@@ -1,0 +1,3 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/kubernetes/src/test/java/org/apache/ignite/spi/discovery/tcp/ipfinder/kubernetes/TcpDiscoveryKubernetesIpFinderSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/kubernetes/src/test/java/org/apache/ignite/testsuites/IgniteKubernetesTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/kubernetes/src/test/java/org/apache/ignite/spi/discovery/tcp/ipfinder/kubernetes/package-info.java

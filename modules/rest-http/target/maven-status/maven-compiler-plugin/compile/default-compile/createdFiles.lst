@@ -1,0 +1,15 @@
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$2.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$8.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$CustomSerializerProvider.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyRestHandler$1.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyRestHandler.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$1.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyRestProtocol$1.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$5.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$6.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyRestHandler$NullOutputStream.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$4.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyRestProtocol.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$7.class
+org/apache/ignite/internal/processors/rest/protocols/http/jetty/GridJettyObjectMapper$3.class

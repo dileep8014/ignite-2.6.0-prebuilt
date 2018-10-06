@@ -1,0 +1,5 @@
+org/apache/ignite/stream/storm/StormIgniteStreamerSelfTest.class
+org/apache/ignite/stream/storm/StormIgniteStreamerSelfTest$1.class
+org/apache/ignite/stream/storm/StormIgniteStreamerSelfTest$2.class
+org/apache/ignite/stream/storm/TestStormSpout.class
+org/apache/ignite/stream/storm/IgniteStormStreamerSelfTestSuite.class

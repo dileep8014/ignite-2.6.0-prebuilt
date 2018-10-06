@@ -1,0 +1,5 @@
+org/apache/ignite/osgi/classloaders/BundleDelegatingClassLoader.class
+org/apache/ignite/osgi/IgniteOsgiUtils.class
+org/apache/ignite/osgi/IgniteAbstractOsgiContextActivator.class
+org/apache/ignite/osgi/classloaders/ContainerSweepClassLoader.class
+org/apache/ignite/osgi/classloaders/OsgiClassLoadingStrategyType.class

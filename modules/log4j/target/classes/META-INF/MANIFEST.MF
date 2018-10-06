@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729407187
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-log4j
+Bundle-SymbolicName: org.apache.ignite.ignite-log4j
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.logger.log4j;uses:="org.apache.ignite,
+ org.apache.ignite.lang,org.apache.ignite.logger,org.apache.log4j,org.ap
+ ache.log4j.varia";version="2.6.0"
+Import-Package: org.apache.ignite;version="[2.6,3)",org.apache.ignite.in
+ ternal.util;version="[2.6,3)",org.apache.ignite.internal.util.tostring;
+ version="[2.6,3)",org.apache.ignite.internal.util.typedef;version="[2.6
+ ,3)",org.apache.ignite.internal.util.typedef.internal;version="[2.6,3)"
+ ,org.apache.ignite.lang;version="[2.6,3)",org.apache.ignite.logger;vers
+ ion="[2.6,3)",org.apache.log4j;version="[1.2,2)",org.apache.log4j.spi;v
+ ersion="[1.2,2)",org.apache.log4j.varia;version="[1.2,2)",org.apache.lo
+ g4j.xml;version="[1.2,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

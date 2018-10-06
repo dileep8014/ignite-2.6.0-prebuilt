@@ -1,0 +1,11 @@
+org/apache/ignite/logger/log4j2/Log4j2LoggerVerboseModeSelfTest.class
+org/apache/ignite/logger/log4j2/Log4j2ConfigUpdateTest.class
+org/apache/ignite/logger/log4j2/Log4j2LoggerMarkerTest.class
+org/apache/ignite/logger/log4j2/Log4j2LoggerSelfTest.class
+org/apache/ignite/logger/log4j2/Log4j2ConfigUpdateTest$2.class
+org/apache/ignite/logger/log4j2/Log4j2ConfigUpdateTest$1.class
+org/apache/ignite/logger/log4j2/Log4j2ConfigUpdateTest$3.class
+org/apache/ignite/testsuites/IgniteLog4j2TestSuite.class
+org/apache/ignite/logger/log4j2/Log4j2LoggerVerboseModeSelfTest$1.class
+org/apache/ignite/logger/log4j2/Log4j2ConfigUpdateTest$Log4J2LoggerSupplier.class
+org/apache/ignite/logger/log4j2/Log4j2LoggerSelfTest$1.class

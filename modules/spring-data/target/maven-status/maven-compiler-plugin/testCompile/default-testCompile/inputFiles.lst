@@ -1,0 +1,7 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/springdata/misc/PersonRepository.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/springdata/misc/PersonSecondRepository.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/testsuites/IgniteSpringDataTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/springdata/misc/Person.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/springdata/IgniteSpringDataQueriesSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/springdata/IgniteSpringDataCrudSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/test/java/org/apache/ignite/springdata/misc/ApplicationConfiguration.java

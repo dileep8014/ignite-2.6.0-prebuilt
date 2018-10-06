@@ -1,0 +1,2 @@
+org.apache.ignite.compute.gridify.aop.aspectj
+org.apache.ignite.compute.gridify.aop.spring

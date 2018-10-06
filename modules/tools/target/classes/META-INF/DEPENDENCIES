@@ -1,0 +1,27 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+ignite-tools
+
+
+From: 'Jodd' (http://jodd.org)
+  - Jodd Core (http://jodd.org) org.jodd:jodd-core:jar:3.4.8
+    License: The New BSD License  (http://jodd.org/license.html)
+  - Jodd Lagarto (http://jodd.org) org.jodd:jodd-lagarto:jar:3.4.8
+    License: The New BSD License  (http://jodd.org/license.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.2
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Ant Core (http://ant.apache.org/ant/) org.apache.ant:ant:jar:1.8.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Ant Launcher (http://ant.apache.org/ant-launcher/) org.apache.ant:ant-launcher:jar:1.8.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

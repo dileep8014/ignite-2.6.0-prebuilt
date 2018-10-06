@@ -1,0 +1,6 @@
+org/apache/ignite/stream/twitter/IgniteTwitterStreamerTest$1.class
+org/apache/ignite/stream/twitter/TwitterStreamerImpl.class
+org/apache/ignite/stream/twitter/TwitterStreamerImpl$TwitterStreamSingleTupleExtractorImpl.class
+org/apache/ignite/stream/twitter/IgniteTwitterStreamerTest.class
+org/apache/ignite/stream/twitter/IgniteTwitterStreamerTestSuite.class
+org/apache/ignite/stream/twitter/IgniteTwitterStreamerTest$CacheListener.class

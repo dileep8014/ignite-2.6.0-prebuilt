@@ -1,0 +1,11 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorTopologyListener.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPluginComponentsFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorExtensionPoint.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPlugin.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPluginNodesPanel.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPluggableTab.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPluginModel.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPluginComponent.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorPluginLogPanel.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/visor-plugins/src/main/java/org/apache/ignite/visor/plugin/VisorSelectionListener.java

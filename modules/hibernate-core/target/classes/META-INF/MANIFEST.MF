@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538730092043
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-hibernate-core
+Bundle-SymbolicName: org.apache.ignite.ignite-hibernate-core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.cache.hibernate;uses:="javax.cache,jav
+ ax.cache.expiry,javax.cache.processor,org.apache.ignite,org.apache.igni
+ te.cache,org.apache.ignite.cache.affinity,org.apache.ignite.cluster,org
+ .apache.ignite.configuration,org.apache.ignite.internal,org.apache.igni
+ te.internal.processors.affinity,org.apache.ignite.internal.processors.c
+ ache,org.apache.ignite.internal.processors.cache.distributed.near,org.a
+ pache.ignite.lang,org.apache.ignite.mxbean,org.apache.ignite.transactio
+ ns";version="2.6.0"
+Import-Package: javax.cache;version="[1.0,2)",javax.cache.configuration,
+ javax.cache.expiry,javax.cache.processor,org.apache.ignite;version="[2.
+ 6,3)",org.apache.ignite.cache;version="[2.6,3)",org.apache.ignite.cache
+ .affinity;version="[2.6,3)",org.apache.ignite.cluster;version="[2.6,3)"
+ ,org.apache.ignite.configuration;version="[2.6,3)",org.apache.ignite.in
+ ternal;version="[2.6,3)",org.apache.ignite.internal.processors.affinity
+ ;version="[2.6,3)",org.apache.ignite.internal.processors.cache;version=
+ "[2.6,3)",org.apache.ignite.internal.processors.cache.distributed.near;
+ version="[2.6,3)",org.apache.ignite.internal.processors.cache.transacti
+ ons;version="[2.6,3)",org.apache.ignite.internal.util;version="[2.6,3)"
+ ,org.apache.ignite.internal.util.tostring;version="[2.6,3)",org.apache.
+ ignite.internal.util.typedef;version="[2.6,3)",org.apache.ignite.intern
+ al.util.typedef.internal;version="[2.6,3)",org.apache.ignite.lang;versi
+ on="[2.6,3)",org.apache.ignite.mxbean;version="[2.6,3)",org.apache.igni
+ te.resources;version="[2.6,3)",org.apache.ignite.transactions;version="
+ [2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

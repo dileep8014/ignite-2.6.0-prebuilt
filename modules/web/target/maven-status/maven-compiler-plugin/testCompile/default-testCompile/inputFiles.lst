@@ -1,0 +1,9 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionReplicatedV1SelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionV1SelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/IgniteWebSessionSelfTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionTransactionalSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionTransactionalV1SelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionServerStart.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/web/src/test/java/org/apache/ignite/internal/websession/WebSessionReplicatedSelfTest.java

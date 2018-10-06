@@ -1,0 +1,2 @@
+org/apache/ignite/spi/discovery/tcp/ipfinder/gce/TcpDiscoveryGoogleStorageIpFinderSelfTest.class
+org/apache/ignite/testsuites/IgniteGCETestSuite.class

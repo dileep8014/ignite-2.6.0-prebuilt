@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729710273
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-jta
+Bundle-SymbolicName: org.apache.ignite.ignite-jta
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.cache.jta.jndi;uses:="javax.cache.conf
+ iguration,javax.transaction,org.apache.ignite,org.apache.ignite.cache.j
+ ta";version="2.6.0",org.apache.ignite.cache.jta.reflect;uses:="javax.tr
+ ansaction,org.apache.ignite,org.apache.ignite.cache.jta";version="2.6.0
+ ",org.apache.ignite.cache.jta.websphere;uses:="javax.cache.configuratio
+ n,javax.transaction";version="2.6.0",org.apache.ignite.cache.jta;uses:=
+ "javax.transaction,org.apache.ignite";version="2.6.0"
+Fragment-Host: org.apache.ignite.ignite-core
+Import-Package: javax.cache;version="[1.0,2)",javax.cache.configuration,
+ javax.naming,javax.transaction,javax.transaction.xa,org.apache.ignite;v
+ ersion="[2.6,3)",org.apache.ignite.cache.jta,org.apache.ignite.configur
+ ation;version="[2.6,3)",org.apache.ignite.internal;version="[2.6,3)",or
+ g.apache.ignite.internal.processors.cache;version="[2.6,3)",org.apache.
+ ignite.internal.processors.cache.distributed.near;version="[2.6,3)",org
+ .apache.ignite.internal.processors.cache.transactions;version="[2.6,3)"
+ ,org.apache.ignite.internal.processors.resource;version="[2.6,3)",org.a
+ pache.ignite.internal.util.typedef.internal;version="[2.6,3)",org.apach
+ e.ignite.lang;version="[2.6,3)",org.apache.ignite.lifecycle;version="[2
+ .6,3)",org.apache.ignite.transactions;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

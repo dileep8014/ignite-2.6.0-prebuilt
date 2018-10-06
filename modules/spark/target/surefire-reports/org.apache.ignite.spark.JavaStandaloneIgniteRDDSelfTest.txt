@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.ignite.spark.JavaStandaloneIgniteRDDSelfTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.186 s - in org.apache.ignite.spark.JavaStandaloneIgniteRDDSelfTest

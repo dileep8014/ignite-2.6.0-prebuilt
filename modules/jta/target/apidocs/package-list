@@ -1,0 +1,5 @@
+org.apache.ignite.cache.jta
+org.apache.ignite.cache.jta.jndi
+org.apache.ignite.cache.jta.reflect
+org.apache.ignite.cache.jta.websphere
+org.apache.ignite.internal.processors.cache.jta

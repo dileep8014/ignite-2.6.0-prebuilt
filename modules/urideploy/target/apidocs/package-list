@@ -1,0 +1,4 @@
+org.apache.ignite.spi.deployment.uri
+org.apache.ignite.spi.deployment.uri.scanners
+org.apache.ignite.spi.deployment.uri.scanners.file
+org.apache.ignite.spi.deployment.uri.scanners.http

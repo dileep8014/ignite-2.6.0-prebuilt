@@ -1,0 +1,2 @@
+org/apache/ignite/tests/MyPojo.class
+org/apache/ignite/tests/KryoSerializerTest.class

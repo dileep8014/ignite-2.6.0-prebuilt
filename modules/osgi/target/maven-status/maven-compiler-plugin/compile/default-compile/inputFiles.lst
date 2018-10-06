@@ -1,0 +1,7 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/classloaders/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/IgniteAbstractOsgiContextActivator.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/classloaders/ContainerSweepClassLoader.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/classloaders/BundleDelegatingClassLoader.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/IgniteOsgiUtils.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/main/java/org/apache/ignite/osgi/classloaders/OsgiClassLoadingStrategyType.java

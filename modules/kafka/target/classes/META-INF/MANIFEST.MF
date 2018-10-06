@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729891947
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-kafka
+Bundle-SymbolicName: org.apache.ignite.ignite-kafka
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.stream.kafka.connect;uses:="org.apache
+ .ignite,org.apache.kafka.clients.consumer,org.apache.kafka.common,org.a
+ pache.kafka.common.config,org.apache.kafka.connect.connector,org.apache
+ .kafka.connect.sink,org.apache.kafka.connect.source";version="2.6.0",or
+ g.apache.ignite.stream.kafka.connect.serialization;uses:="org.apache.ig
+ nite.events,org.apache.kafka.common.serialization,org.apache.kafka.conn
+ ect.data,org.apache.kafka.connect.storage";version="2.6.0",org.apache.i
+ gnite.stream.kafka;uses:="kafka.consumer,kafka.message,org.apache.ignit
+ e.stream";version="2.6.0"
+Import-Package: kafka.consumer,kafka.javaapi.consumer,kafka.message,org.
+ apache.ignite;version="[2.6,3)",org.apache.ignite.cache.affinity;versio
+ n="[2.6,3)",org.apache.ignite.cluster;version="[2.6,3)",org.apache.igni
+ te.events;version="[2.6,3)",org.apache.ignite.internal.util.typedef.int
+ ernal;version="[2.6,3)",org.apache.ignite.lang;version="[2.6,3)",org.ap
+ ache.ignite.marshaller;version="[2.6,3)",org.apache.ignite.marshaller.j
+ dk;version="[2.6,3)",org.apache.ignite.resources;version="[2.6,3)",org.
+ apache.ignite.stream;version="[2.6,3)",org.apache.kafka.clients.consume
+ r,org.apache.kafka.common,org.apache.kafka.common.config,org.apache.kaf
+ ka.common.errors,org.apache.kafka.common.serialization,org.apache.kafka
+ .common.utils,org.apache.kafka.connect.connector,org.apache.kafka.conne
+ ct.data,org.apache.kafka.connect.errors,org.apache.kafka.connect.sink,o
+ rg.apache.kafka.connect.source,org.apache.kafka.connect.storage,org.slf
+ 4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

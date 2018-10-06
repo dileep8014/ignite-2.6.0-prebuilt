@@ -1,0 +1,11 @@
+org/apache/ignite/tools/classgen/ClassesGenerator.class
+org/apache/ignite/util/antgar/IgniteDeploymentGarAntTask$1.class
+org/apache/ignite/tools/ant/beautifier/GridJavadocTokenType.class
+org/apache/ignite/tools/ant/beautifier/GridJavadocAntTask.class
+org/apache/ignite/util/antgar/IgniteDeploymentGarAntTask.class
+org/apache/ignite/tools/ant/beautifier/GridJavadocToken.class
+org/apache/ignite/tools/ant/beautifier/GridJavadocCharArrayLexReader.class
+org/apache/ignite/tools/javadoc/IgniteLinkTaglet.class
+org/apache/ignite/util/antgar/IgniteDeploymentGarAntTask$2.class
+org/apache/ignite/tools/ant/beautifier/GridJavadocAntTask$1.class
+org/apache/ignite/tools/classgen/ClassesGenerator$1.class

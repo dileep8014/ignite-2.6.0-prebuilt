@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538730073756
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-zookeeper
+Bundle-SymbolicName: org.apache.ignite.ignite-zookeeper
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.spi.discovery.zk;uses:="org.apache.ign
+ ite.cluster,org.apache.ignite.internal.managers.discovery,org.apache.ig
+ nite.lang,org.apache.ignite.mxbean,org.apache.ignite.spi,org.apache.ign
+ ite.spi.discovery";version="2.6.0",org.apache.ignite.spi.discovery.tcp.
+ ipfinder.zk;uses:="org.apache.curator,org.apache.curator.framework,org.
+ apache.ignite.spi,org.apache.ignite.spi.discovery.tcp.ipfinder";version
+ ="2.6.0"
+Import-Package: com.google.common.collect;version="[16.0,17)",org.apache
+ .curator;version="[2.9,3)",org.apache.curator.framework;version="[2.9,3
+ )",org.apache.curator.framework.imps;version="[2.9,3)",org.apache.curat
+ or.retry;version="[2.9,3)",org.apache.curator.utils;version="[2.9,3)",o
+ rg.apache.curator.x.discovery;version="[2.9,3)",org.apache.curator.x.di
+ scovery.details;version="[2.9,3)",org.apache.ignite;version="[2.6,3)",o
+ rg.apache.ignite.cache;version="[2.6,3)",org.apache.ignite.cluster;vers
+ ion="[2.6,3)",org.apache.ignite.configuration;version="[2.6,3)",org.apa
+ che.ignite.internal;version="[2.6,3)",org.apache.ignite.internal.cluste
+ r;version="[2.6,3)",org.apache.ignite.internal.managers.discovery;versi
+ on="[2.6,3)",org.apache.ignite.internal.processors.affinity;version="[2
+ .6,3)",org.apache.ignite.internal.processors.cache;version="[2.6,3)",or
+ g.apache.ignite.internal.processors.cache.distributed.dht;version="[2.6
+ ,3)",org.apache.ignite.internal.processors.security;version="[2.6,3)",o
+ rg.apache.ignite.internal.util;version="[2.6,3)",org.apache.ignite.inte
+ rnal.util.future;version="[2.6,3)",org.apache.ignite.internal.util.io;v
+ ersion="[2.6,3)",org.apache.ignite.internal.util.tostring;version="[2.6
+ ,3)",org.apache.ignite.internal.util.typedef;version="[2.6,3)",org.apac
+ he.ignite.internal.util.typedef.internal;version="[2.6,3)",org.apache.i
+ gnite.lang;version="[2.6,3)",org.apache.ignite.marshaller;version="[2.6
+ ,3)",org.apache.ignite.marshaller.jdk;version="[2.6,3)",org.apache.igni
+ te.mxbean;version="[2.6,3)",org.apache.ignite.plugin.security;version="
+ [2.6,3)",org.apache.ignite.resources;version="[2.6,3)",org.apache.ignit
+ e.spi;version="[2.6,3)",org.apache.ignite.spi.communication;version="[2
+ .6,3)",org.apache.ignite.spi.communication.tcp;version="[2.6,3)",org.ap
+ ache.ignite.spi.discovery;version="[2.6,3)",org.apache.ignite.spi.disco
+ very.tcp.ipfinder;version="[2.6,3)",org.apache.ignite.thread;version="[
+ 2.6,3)",org.apache.zookeeper;version="[3.4,4)",org.apache.zookeeper.dat
+ a;version="[3.4,4)",org.codehaus.jackson.map.annotate;version="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

@@ -1,0 +1,4 @@
+org.apache.ignite.springdata.repository
+org.apache.ignite.springdata.repository.config
+org.apache.ignite.springdata.repository.query
+org.apache.ignite.springdata.repository.support

@@ -1,0 +1,8 @@
+org/apache/ignite/spi/checkpoint/s3/S3CheckpointSpi.class
+org/apache/ignite/spi/checkpoint/s3/S3CheckpointSpiMBean.class
+org/apache/ignite/spi/discovery/tcp/ipfinder/s3/TcpDiscoveryS3IpFinder.class
+org/apache/ignite/spi/checkpoint/s3/S3TimeData.class
+org/apache/ignite/spi/checkpoint/s3/S3CheckpointSpi$S3CheckpointSpiMBeanImpl.class
+org/apache/ignite/spi/discovery/tcp/ipfinder/elb/TcpDiscoveryElbIpFinder.class
+org/apache/ignite/spi/checkpoint/s3/S3CheckpointSpi$S3TimeoutWorker.class
+org/apache/ignite/spi/checkpoint/s3/S3CheckpointData.class

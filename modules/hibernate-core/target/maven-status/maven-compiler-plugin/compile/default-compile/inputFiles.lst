@@ -1,0 +1,10 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateCacheProxy.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateExceptionConverter.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateAccessStrategyFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateReadOnlyAccessStrategy.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateKeyTransformer.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateAccessStrategyAdapter.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateReadWriteAccessStrategy.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateNonStrictAccessStrategy.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/hibernate-core/src/main/java/org/apache/ignite/cache/hibernate/HibernateTransactionalAccessStrategy.java

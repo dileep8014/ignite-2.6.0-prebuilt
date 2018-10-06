@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="Update download url in mesos module."/>
+  <echo message="Direct link https://archive.apache.org/dist/ignite/%s/apache-ignite-fabric-%s-bin.zip."/>
+  <echo message="Latest link http://ignite.run/download_ignite.php."/>
+  <replaceregexp encoding="UTF-8" byline="true">
+    <regexp pattern="(.*DOWNLOAD_LINK = &quot;)(.*)(&quot;.*)"/>
+    <substitution expression="\1http://ignite.run/download_ignite.php\3"/>
+    <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/mesos/">
+      <include name="**/IgniteProvider.java"/>
+    </fileset>
+  </replaceregexp>
+  <replaceregexp encoding="UTF-8" byline="true">
+    <regexp pattern="(.*DOWNLOAD_URL_PATTERN = &quot;)(.*)(&quot;.*)"/>
+    <substitution expression="\1https://archive.apache.org/dist/ignite/%s/apache-ignite-fabric-%s-bin.zip\3"/>
+    <fileset dir="/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/mesos/">
+      <include name="**/IgniteProvider.java"/>
+    </fileset>
+  </replaceregexp>
+</target>
+</project>

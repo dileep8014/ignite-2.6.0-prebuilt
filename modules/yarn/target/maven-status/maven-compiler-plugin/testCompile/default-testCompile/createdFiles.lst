@@ -1,0 +1,7 @@
+org/apache/ignite/IgniteYarnTestSuite.class
+org/apache/ignite/yarn/IgniteApplicationMasterSelfTest$NMMock.class
+org/apache/ignite/yarn/IgniteApplicationMasterSelfTest$MockFileSystem.class
+org/apache/ignite/yarn/IgniteApplicationMasterSelfTest$1.class
+org/apache/ignite/yarn/IgniteApplicationMasterSelfTest$MockResource.class
+org/apache/ignite/yarn/IgniteApplicationMasterSelfTest.class
+org/apache/ignite/yarn/IgniteApplicationMasterSelfTest$RMMock.class

@@ -1,0 +1,5 @@
+org/apache/ignite/stream/flume/IgniteSinkTest.class
+org/apache/ignite/stream/flume/TestEventTransformer.class
+org/apache/ignite/stream/flume/IgniteSinkTest$2.class
+org/apache/ignite/stream/flume/IgniteSinkTestSuite.class
+org/apache/ignite/stream/flume/IgniteSinkTest$1.class

@@ -1,0 +1,3 @@
+org/apache/ignite/stream/zeromq/IgniteZeroMqStreamer.class
+org/apache/ignite/stream/zeromq/IgniteZeroMqStreamer$1.class
+org/apache/ignite/stream/zeromq/ZeroMqTypeSocket.class

@@ -1,0 +1,9 @@
+org.apache.ignite.cache.store.cassandra
+org.apache.ignite.cache.store.cassandra.common
+org.apache.ignite.cache.store.cassandra.datasource
+org.apache.ignite.cache.store.cassandra.persistence
+org.apache.ignite.cache.store.cassandra.serializer
+org.apache.ignite.cache.store.cassandra.session
+org.apache.ignite.cache.store.cassandra.session.pool
+org.apache.ignite.cache.store.cassandra.session.transaction
+org.apache.ignite.cache.store.cassandra.utils

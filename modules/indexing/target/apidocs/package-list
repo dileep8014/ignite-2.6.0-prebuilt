@@ -1,0 +1,11 @@
+org.apache.ignite.internal.processors.cache.query
+org.apache.ignite.internal.processors.query.h2
+org.apache.ignite.internal.processors.query.h2.database
+org.apache.ignite.internal.processors.query.h2.database.io
+org.apache.ignite.internal.processors.query.h2.ddl
+org.apache.ignite.internal.processors.query.h2.dml
+org.apache.ignite.internal.processors.query.h2.opt
+org.apache.ignite.internal.processors.query.h2.sql
+org.apache.ignite.internal.processors.query.h2.twostep
+org.apache.ignite.internal.processors.query.h2.twostep.msg
+org.apache.ignite.internal.visor.verify

@@ -1,0 +1,12 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/jndi/CacheJndiTmLookup.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/websphere/WebSphereLibertyTmFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/jndi/CacheJndiTmFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/reflect/CacheReflectionTmLookup.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/CacheTmLookup.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/jndi/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/websphere/WebSphereTmFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/internal/processors/cache/jta/CacheJtaResource.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/reflect/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/cache/jta/websphere/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/main/java/org/apache/ignite/internal/processors/cache/jta/CacheJtaManager.java

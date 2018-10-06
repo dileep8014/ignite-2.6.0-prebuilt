@@ -1,0 +1,8 @@
+org/apache/ignite/mesos/resource/ResourceHandler.class
+org/apache/ignite/mesos/resource/ResourceProvider.class
+org/apache/ignite/mesos/IgniteScheduler.class
+org/apache/ignite/mesos/IgniteTask.class
+org/apache/ignite/mesos/resource/JettyServer.class
+org/apache/ignite/mesos/resource/IgniteProvider.class
+org/apache/ignite/mesos/IgniteFramework.class
+org/apache/ignite/mesos/ClusterProperties.class

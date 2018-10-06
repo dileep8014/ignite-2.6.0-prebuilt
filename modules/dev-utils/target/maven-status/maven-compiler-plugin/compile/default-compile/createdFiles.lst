@@ -1,0 +1,10 @@
+org/apache/ignite/development/utils/TxWalStat.class
+org/apache/ignite/development/utils/TxWalStat$1.class
+org/apache/ignite/development/utils/WalStat$2.class
+org/apache/ignite/development/utils/RecordSizeCountStat.class
+org/apache/ignite/development/utils/WalStat$1.class
+org/apache/ignite/development/utils/IgniteWalConverter.class
+org/apache/ignite/development/utils/WalStat.class
+org/apache/ignite/development/utils/TxWalStat$TxOccurrence.class
+org/apache/ignite/development/utils/TxWalStat$LruMap.class
+org/apache/ignite/development/utils/TxWalStat$LruMap$1.class

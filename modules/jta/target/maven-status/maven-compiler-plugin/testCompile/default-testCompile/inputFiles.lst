@@ -1,0 +1,14 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/GridCacheJtaConfigurationValidationSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/GridCacheJtaFactoryConfigValidationSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/GridReplicatedCacheJtaFactoryUseSyncSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/GridJtaLifecycleAwareSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/GridPartitionedCacheJtaLookupClassNameSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/GridReplicatedCacheJtaFactorySelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/GridReplicatedCacheJtaLookupClassNameSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/GridPartitionedCacheJtaFactoryUseSyncSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/testsuites/IgniteJtaTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/GridPartitionedCacheJtaFactorySelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/jta/AbstractCacheJtaSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/CacheJndiTmFactorySelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/jta/src/test/java/org/apache/ignite/internal/processors/cache/GridJtaTransactionManagerSelfTest.java

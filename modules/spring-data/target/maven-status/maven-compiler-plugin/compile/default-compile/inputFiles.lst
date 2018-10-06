@@ -1,0 +1,16 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/config/RepositoryConfig.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/support/IgniteRepositoryImpl.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/config/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/query/IgniteRepositoryQuery.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/query/IgniteQueryGenerator.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/query/IgniteQuery.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/config/Query.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/support/IgniteRepositoryFactoryBean.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/config/EnableIgniteRepositories.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/support/IgniteRepositoryFactory.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/IgniteRepository.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/query/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/support/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/config/IgniteRepositoriesRegistar.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/spring-data/src/main/java/org/apache/ignite/springdata/repository/config/IgniteRepositoryConfigurationExtension.java

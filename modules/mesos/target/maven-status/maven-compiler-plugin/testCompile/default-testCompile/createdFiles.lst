@@ -1,0 +1,5 @@
+org/apache/ignite/mesos/IgniteSchedulerSelfTest$1.class
+org/apache/ignite/IgniteMesosTestSuite.class
+org/apache/ignite/mesos/IgniteSchedulerSelfTest$2.class
+org/apache/ignite/mesos/IgniteSchedulerSelfTest.class
+org/apache/ignite/mesos/IgniteSchedulerSelfTest$DriverMock.class

@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729753436
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-slf4j
+Bundle-SymbolicName: org.apache.ignite.ignite-slf4j
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.logger.slf4j;uses:="org.apache.ignite,
+ org.slf4j";version="2.6.0"
+Import-Package: org.apache.ignite;version="[2.6,3)",org.apache.ignite.in
+ ternal.util.typedef.internal;version="[2.6,3)",org.slf4j;version="[1.7,
+ 2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

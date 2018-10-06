@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538739325323
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-scalar
+Bundle-SymbolicName: org.apache.ignite.ignite-scalar
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.scalar;version="2.6.0";uses:="org.apac
+ he.ignite,org.apache.ignite.cache,org.apache.ignite.cluster,org.apache.
+ ignite.compute,org.apache.ignite.configuration,org.apache.ignite.intern
+ al.util.lang,org.apache.ignite.lang,org.apache.ignite.scalar.pimps,scal
+ a,scala.collection,scala.collection.mutable,scala.reflect,scala.runtime
+ ",org.apache.ignite.scalar.lang;version="2.6.0";uses:="org.apache.ignit
+ e,org.apache.ignite.compute,org.apache.ignite.internal.util.lang,org.ap
+ ache.ignite.lang,scala,scala.collection,scala.reflect,scala.runtime",or
+ g.apache.ignite.scalar.pimps;version="2.6.0";uses:="javax.cache,org.apa
+ che.ignite,org.apache.ignite.cache.query,org.apache.ignite.cluster,org.
+ apache.ignite.compute,org.apache.ignite.internal.util.lang,org.apache.i
+ gnite.lang,org.apache.ignite.scalar,org.apache.ignite.scheduler,scala,s
+ cala.collection,scala.collection.generic,scala.collection.immutable,sca
+ la.collection.mutable,scala.collection.parallel,scala.math,scala.reflec
+ t,scala.runtime"
+Import-Package: javax.cache;version="[1.0,2)",org.apache.ignite;version=
+ "[2.6,3)",org.apache.ignite.cache;version="[2.6,3)",org.apache.ignite.c
+ ache.query;version="[2.6,3)",org.apache.ignite.cluster;version="[2.6,3)
+ ",org.apache.ignite.compute;version="[2.6,3)",org.apache.ignite.configu
+ ration;version="[2.6,3)",org.apache.ignite.internal.util.lang;version="
+ [2.6,3)",org.apache.ignite.lang;version="[2.6,3)",org.apache.ignite.sca
+ lar;version="[2.6,3)",org.apache.ignite.scalar.lang;version="[2.6,3)",o
+ rg.apache.ignite.scalar.pimps;version="[2.6,3)",org.apache.ignite.sched
+ uler;version="[2.6,3)",scala;version="[2.11,3)",scala.collection;versio
+ n="[2.11,3)",scala.collection.generic;version="[2.11,3)",scala.collecti
+ on.immutable;version="[2.11,3)",scala.collection.mutable;version="[2.11
+ ,3)",scala.collection.parallel;version="[2.11,3)",scala.math;version="[
+ 2.11,3)",scala.reflect;version="[2.11,3)",scala.runtime;version="[2.11,
+ 3)",scala.util.control;version="[2.11,3)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-3.5.0.201709291849

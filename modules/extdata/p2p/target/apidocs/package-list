@@ -1,0 +1,5 @@
+org.apache.ignite.tests.p2p
+org.apache.ignite.tests.p2p.cache
+org.apache.ignite.tests.p2p.compute
+org.apache.ignite.tests.p2p.datastructures
+org.apache.ignite.tests.p2p.startcache

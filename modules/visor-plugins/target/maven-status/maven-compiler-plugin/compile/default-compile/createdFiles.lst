@@ -1,0 +1,10 @@
+org/apache/ignite/visor/plugin/VisorPluginModel.class
+org/apache/ignite/visor/plugin/VisorPluginLogPanel.class
+org/apache/ignite/visor/plugin/VisorTopologyListener.class
+org/apache/ignite/visor/plugin/VisorSelectionListener.class
+org/apache/ignite/visor/plugin/VisorPlugin.class
+org/apache/ignite/visor/plugin/VisorPluggableTab.class
+org/apache/ignite/visor/plugin/VisorPluginNodesPanel.class
+org/apache/ignite/visor/plugin/VisorPluginComponentsFactory.class
+org/apache/ignite/visor/plugin/VisorExtensionPoint.class
+org/apache/ignite/visor/plugin/VisorPluginComponent.class

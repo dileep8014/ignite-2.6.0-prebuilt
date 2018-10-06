@@ -1,0 +1,7 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/AbstractIgniteKarafTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/IgniteKarafFeaturesInstallationTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/activators/TestOsgiFlagsImpl.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/activators/BasicIgniteTestActivator.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/activators/TestOsgiFlags.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/IgniteOsgiTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/osgi/src/test/java/org/apache/ignite/osgi/IgniteOsgiServiceTest.java

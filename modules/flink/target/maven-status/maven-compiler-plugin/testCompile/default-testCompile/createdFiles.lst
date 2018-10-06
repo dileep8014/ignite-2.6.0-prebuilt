@@ -1,0 +1,4 @@
+org/apache/ignite/sink/flink/FlinkIgniteSinkSelfTest.class
+org/apache/ignite/sink/flink/FlinkIgniteSinkSelfTest$1.class
+org/apache/ignite/sink/flink/FlinkIgniteSinkSelfTest$CacheListener.class
+org/apache/ignite/sink/flink/FlinkIgniteSinkSelfTestSuite.class

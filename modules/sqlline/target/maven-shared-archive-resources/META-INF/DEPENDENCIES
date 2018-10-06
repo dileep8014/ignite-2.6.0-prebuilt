@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+ignite-sqlline
+
+
+From: 'an unknown organization'
+  - JLine (http://nexus.sonatype.org/oss-repository-hosting.html/jline) jline:jline:jar:2.14.3
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'Julian Hyde' (http://www.hydromatic.net)
+  - sqlline (http://github.com/julianhyde/sqlline) sqlline:sqlline:jar:1.3.0
+    License: Modified BSD License  (http://opensource.org/licenses/BSD-3-Clause)
+
+
+
+

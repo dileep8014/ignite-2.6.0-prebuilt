@@ -1,0 +1,10 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jInitializedTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jLoggingPathTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jConfigUpdateTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jLoggingUrlTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jWatchDelayTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jCorrectFileNameTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jNotInitializedTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/testsuites/IgniteLog4jTestSuite.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/log4j/src/test/java/org/apache/ignite/logger/log4j/GridLog4jLoggingFileTest.java

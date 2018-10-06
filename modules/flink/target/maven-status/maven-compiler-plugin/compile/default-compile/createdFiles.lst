@@ -1,0 +1,3 @@
+org/apache/ignite/sink/flink/IgniteSink.class
+org/apache/ignite/sink/flink/IgniteSink$SinkContext.class
+org/apache/ignite/sink/flink/IgniteSink$SinkContext$Holder.class

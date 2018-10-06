@@ -1,0 +1,15 @@
+org/apache/ignite/compute/gridify/aop/spring/GridifySetToSetSpringAspect.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringAspect.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$3.class
+org/apache/ignite/compute/gridify/aop/aspectj/GridifySetToValueAspectJAspect.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$GridifyMethodMatcher.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$2.class
+org/apache/ignite/compute/gridify/aop/aspectj/GridifyAspectJAspect.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$GridifySpringPointcutType.class
+org/apache/ignite/compute/gridify/aop/aspectj/GridifySetToSetAspectJAspect.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$1.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringEnhancer.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$4.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut$5.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySetToValueSpringAspect.class
+org/apache/ignite/compute/gridify/aop/spring/GridifySpringPointcut.class

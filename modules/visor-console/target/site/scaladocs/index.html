@@ -1,0 +1,128 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>Ignite Console Visor</title>
+          <meta name="description" content="Ignite Console Visor" />
+          <meta name="keywords" content="Ignite Console Visor" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="lib/index.css" media="screen" type="text/css" rel="stylesheet" />
+      <script type="text/javascript" src="lib/jquery.js"></script>
+      <script type="text/javascript" src="lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="lib/jquery.layout.js"></script>
+      <script type="text/javascript" src="lib/index.js"></script>
+      <script type="text/javascript" src="lib/scheduler.js"></script>
+    
+        </head>
+        <body>
+      <div id="library">
+        <img class="class icon" alt="class icon" src="lib/class.png" />
+        <img class="trait icon" alt="trait icon" src="lib/trait.png" />
+        <img class="object icon" alt="trait icon" src="lib/object.png" />
+        <img class="package icon" alt="trait icon" src="lib/package.png" />
+      </div>
+      <div id="browser" class="ui-layout-west">
+      <div class="ui-west-center">
+      <div id="filter">
+          <div id="textfilter"></div>
+          <div id="letters"><a target="template" href="index/index-_.html">#</a><a target="template" href="index/index-a.html">A</a><a target="template" href="index/index-b.html">B</a><a target="template" href="index/index-c.html">C</a><a target="template" href="index/index-d.html">D</a><a target="template" href="index/index-e.html">E</a><a target="template" href="index/index-f.html">F</a><a target="template" href="index/index-g.html">G</a><a target="template" href="index/index-h.html">H</a><a target="template" href="index/index-i.html">I</a><a target="template" href="index/index-j.html">J</a><a target="template" href="index/index-k.html">K</a><a target="template" href="index/index-l.html">L</a><a target="template" href="index/index-m.html">M</a><a target="template" href="index/index-n.html">N</a><a target="template" href="index/index-o.html">O</a><a target="template" href="index/index-p.html">P</a><a target="template" href="index/index-q.html">Q</a><a target="template" href="index/index-r.html">R</a><a target="template" href="index/index-s.html">S</a><a target="template" href="index/index-t.html">T</a><a target="template" href="index/index-u.html">U</a><a target="template" href="index/index-v.html">V</a><a target="template" href="index/index-w.html">W</a><span>X</span><span>Y</span><span>Z</span> – <span>deprecated</span></div>
+      </div>
+      <div class="pack" id="tpl">
+            
+            <ol class="templates"></ol>
+            <ol class="packages"> <li class="pack" title="org">
+            <a class="tplshow" href="org/package.html" target="template">org</a>
+            <ol class="templates"></ol>
+            <ol class="packages"> <li class="pack" title="org.apache">
+            <a class="tplshow" href="org/apache/package.html" target="template">org.apache</a>
+            <ol class="templates"></ol>
+            <ol class="packages"> <li class="pack" title="org.apache.ignite">
+            <a class="tplshow" href="org/apache/ignite/package.html" target="template">org.apache.ignite</a>
+            <ol class="templates"></ol>
+            <ol class="packages"> <li class="pack" title="org.apache.ignite.visor">
+            <a class="tplshow" href="org/apache/ignite/visor/package.html" target="template">org.apache.ignite.visor</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.visor"><a class="tplshow" href="org/apache/ignite/visor/visor$.html" target="template"><span class="object">(object)</span><div class="placeholder"></div><span class="tplLink">visor</span></a></li><li title="org.apache.ignite.visor.VisorCommandHolder"><div class="placeholder"></div><a class="tplshow" href="org/apache/ignite/visor/VisorCommandHolder.html" target="template"><span class="case class">(case class)</span><span class="tplLink">VisorCommandHolder</span></a></li><li title="org.apache.ignite.visor.VisorTag"><div class="placeholder"></div><a class="tplshow" href="org/apache/ignite/visor/VisorTag.html" target="template"><span class="trait">(trait)</span><span class="tplLink">VisorTag</span></a></li></ol>
+            <ol class="packages"> <li class="pack" title="org.apache.ignite.visor.commands">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/package.html" target="template">org.apache.ignite.visor.commands</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.VisorConsole"><a class="tplshow" href="org/apache/ignite/visor/commands/VisorConsole$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/VisorConsole.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorConsole</span></a></li></ol>
+            <ol class="packages"> <li class="pack" title="org.apache.ignite.visor.commands.ack">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/ack/package.html" target="template">org.apache.ignite.visor.commands.ack</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.ack.VisorAckCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/ack/VisorAckCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/ack/VisorAckCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorAckCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.alert">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/alert/package.html" target="template">org.apache.ignite.visor.commands.alert</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.alert.VisorAlertCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/alert/VisorAlertCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/alert/VisorAlertCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorAlertCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.cache">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/cache/package.html" target="template">org.apache.ignite.visor.commands.cache</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.cache.VisorCacheClearCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheClearCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheClearCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheClearCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheLostPartitionsCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheLostPartitionsCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheLostPartitionsCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheLostPartitionsCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheModifyCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheModifyCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheModifyCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheModifyCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheRebalanceCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheRebalanceCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheRebalanceCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheRebalanceCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheResetCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheResetCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheResetCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheResetCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheResetLostPartitionsCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheResetLostPartitionsCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheResetLostPartitionsCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheResetLostPartitionsCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheScanCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheScanCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheScanCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheScanCommand</span></a></li><li title="org.apache.ignite.visor.commands.cache.VisorCacheStopCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheStopCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/cache/VisorCacheStopCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorCacheStopCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.common">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/common/package.html" target="template">org.apache.ignite.visor.commands.common</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.common.VisorConsoleCommand"><div class="placeholder"></div><a class="tplshow" href="org/apache/ignite/visor/commands/common/VisorConsoleCommand.html" target="template"><span class="trait">(trait)</span><span class="tplLink">VisorConsoleCommand</span></a></li><li title="org.apache.ignite.visor.commands.common.VisorTextTable"><a class="tplshow" href="org/apache/ignite/visor/commands/common/VisorTextTable$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/common/VisorTextTable.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorTextTable</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.config">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/config/package.html" target="template">org.apache.ignite.visor.commands.config</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.config.VisorConfigurationCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/config/VisorConfigurationCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/config/VisorConfigurationCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorConfigurationCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.deploy">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/deploy/package.html" target="template">org.apache.ignite.visor.commands.deploy</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.deploy.VisorDeployCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/deploy/VisorDeployCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/deploy/VisorDeployCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorDeployCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.disco">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/disco/package.html" target="template">org.apache.ignite.visor.commands.disco</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.disco.VisorDiscoveryCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/disco/VisorDiscoveryCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/disco/VisorDiscoveryCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorDiscoveryCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.events">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/events/package.html" target="template">org.apache.ignite.visor.commands.events</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.events.VisorEventsCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/events/VisorEventsCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/events/VisorEventsCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorEventsCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.gc">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/gc/package.html" target="template">org.apache.ignite.visor.commands.gc</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.gc.VisorGcCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/gc/VisorGcCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/gc/VisorGcCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorGcCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.kill">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/kill/package.html" target="template">org.apache.ignite.visor.commands.kill</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.kill.VisorKillCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/kill/VisorKillCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/kill/VisorKillCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorKillCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.node">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/node/package.html" target="template">org.apache.ignite.visor.commands.node</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.node.VisorNodeCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/node/VisorNodeCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/node/VisorNodeCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorNodeCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.open">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/open/package.html" target="template">org.apache.ignite.visor.commands.open</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.open.VisorOpenCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/open/VisorOpenCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/open/VisorOpenCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorOpenCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.ping">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/ping/package.html" target="template">org.apache.ignite.visor.commands.ping</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.ping.VisorPingCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/ping/VisorPingCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/ping/VisorPingCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorPingCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.start">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/start/package.html" target="template">org.apache.ignite.visor.commands.start</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.start.VisorStartCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/start/VisorStartCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/start/VisorStartCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorStartCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.tasks">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/tasks/package.html" target="template">org.apache.ignite.visor.commands.tasks</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.tasks.VisorTasksCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/tasks/VisorTasksCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/tasks/VisorTasksCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorTasksCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.top">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/top/package.html" target="template">org.apache.ignite.visor.commands.top</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.top.VisorTopologyCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/top/VisorTopologyCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/top/VisorTopologyCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorTopologyCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li><li class="pack" title="org.apache.ignite.visor.commands.vvm">
+            <a class="tplshow" href="org/apache/ignite/visor/commands/vvm/package.html" target="template">org.apache.ignite.visor.commands.vvm</a>
+            <ol class="templates"><li title="org.apache.ignite.visor.commands.vvm.VisorVvmCommand"><a class="tplshow" href="org/apache/ignite/visor/commands/vvm/VisorVvmCommand$.html" target="template"><span class="object">(object)</span></a><a class="tplshow" href="org/apache/ignite/visor/commands/vvm/VisorVvmCommand.html" target="template"><span class="class">(class)</span><span class="tplLink">VisorVvmCommand</span></a></li></ol>
+            <ol class="packages"> </ol>
+          </li></ol>
+          </li></ol>
+          </li></ol>
+          </li></ol>
+          </li></ol>
+          </li></ol>
+          </div></div><script src="index.js"></script>
+    </div>
+      <div id="content" class="ui-layout-center">
+        <iframe id="template" name="template" src="package.html"></iframe>
+      </div>
+    </body>
+      </html>

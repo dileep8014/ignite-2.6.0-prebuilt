@@ -1,0 +1,3 @@
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/gce/src/test/java/org/apache/ignite/spi/discovery/tcp/ipfinder/gce/TcpDiscoveryGoogleStorageIpFinderSelfTest.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/gce/src/test/java/org/apache/ignite/spi/discovery/tcp/ipfinder/gce/package-info.java
+/home/ravitejarockon1712/bigdata_envs/ignite_practice/apache-ignite-2.6.0-src/modules/gce/src/test/java/org/apache/ignite/testsuites/IgniteGCETestSuite.java

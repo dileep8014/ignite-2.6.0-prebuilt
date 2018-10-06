@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538729602323
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-rest-http
+Bundle-SymbolicName: org.apache.ignite.ignite-rest-http
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.internal.processors.rest.protocols.htt
+ p.jetty;uses:="com.fasterxml.jackson.databind,javax.servlet.http,org.ap
+ ache.ignite,org.apache.ignite.internal,org.apache.ignite.internal.proce
+ ssors.rest,org.apache.ignite.internal.processors.rest.protocols,org.ecl
+ ipse.jetty.server,org.eclipse.jetty.server.handler";version="2.6.0"
+Import-Package: com.fasterxml.jackson.core;version="[2.6,3)",com.fasterx
+ ml.jackson.databind;version="[2.6,3)",com.fasterxml.jackson.databind.de
+ ser;version="[2.6,3)",com.fasterxml.jackson.databind.module;version="[2
+ .6,3)",com.fasterxml.jackson.databind.ser;version="[2.6,3)",javax.servl
+ et;version="[3.1,4)",javax.servlet.http;version="[3.1,4)",org.apache.ig
+ nite;version="[2.6,3)",org.apache.ignite.binary;version="[2.6,3)",org.a
+ pache.ignite.cache;version="[2.6,3)",org.apache.ignite.configuration;ve
+ rsion="[2.6,3)",org.apache.ignite.internal;version="[2.6,3)",org.apache
+ .ignite.internal.binary;version="[2.6,3)",org.apache.ignite.internal.pr
+ ocessors.cache;version="[2.6,3)",org.apache.ignite.internal.processors.
+ cache.query;version="[2.6,3)",org.apache.ignite.internal.processors.por
+ t;version="[2.6,3)",org.apache.ignite.internal.processors.rest;version=
+ "[2.6,3)",org.apache.ignite.internal.processors.rest.protocols;version=
+ "[2.6,3)",org.apache.ignite.internal.processors.rest.request;version="[
+ 2.6,3)",org.apache.ignite.internal.util.typedef;version="[2.6,3)",org.a
+ pache.ignite.internal.util.typedef.internal;version="[2.6,3)",org.apach
+ e.ignite.internal.visor.util;version="[2.6,3)",org.apache.ignite.lang;v
+ ersion="[2.6,3)",org.apache.ignite.plugin.security;version="[2.6,3)",or
+ g.apache.ignite.spi;version="[2.6,3)",org.eclipse.jetty.server;version=
+ "[9.2,10)",org.eclipse.jetty.server.handler;version="[9.2,10)",org.ecli
+ pse.jetty.util;version="[9.2,10)",org.eclipse.jetty.util.log;version="[
+ 9.2,10)",org.eclipse.jetty.util.thread;version="[9.2,10)",org.eclipse.j
+ etty.xml;version="[9.2,10)",org.xml.sax
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

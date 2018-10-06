@@ -1,0 +1,2 @@
+org/apache/ignite/testsuites/IgniteSlf4jTestSuite.class
+org/apache/ignite/logger/slf4j/Slf4jLoggerMarkerTest.class

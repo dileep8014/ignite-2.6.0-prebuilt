@@ -1,0 +1,5 @@
+org/apache/ignite/stream/zeromq/ZeroMqStringSingleTupleExtractor.class
+org/apache/ignite/stream/zeromq/IgniteZeroMqStreamerTest.class
+org/apache/ignite/stream/zeromq/IgniteZeroMqStreamerTest$CacheListener.class
+org/apache/ignite/stream/zeromq/IgniteZeroMqStreamerTest$1.class
+org/apache/ignite/stream/zeromq/IgniteZeroMqStreamerTestSuite.class

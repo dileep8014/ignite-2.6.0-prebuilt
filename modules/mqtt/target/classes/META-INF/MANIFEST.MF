@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1538730059080
+Build-Jdk: 1.8.0_172
+Built-By: ravitejarockon1712
+Bundle-Description: Java-based middleware for in-memory processing of bi
+ g data in a distributed environment.
+Bundle-DocURL: http://ignite.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ignite-mqtt
+Bundle-SymbolicName: org.apache.ignite.ignite-mqtt
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Directory: lib
+Embed-Transitive: false
+Export-Package: org.apache.ignite.stream.mqtt;uses:="com.github.rholder.
+ retry,org.apache.ignite,org.apache.ignite.stream,org.eclipse.paho.clien
+ t.mqttv3";version="2.6.0"
+Import-Package: com.github.rholder.retry,com.google.common.base;version=
+ "[18.0,19)",org.apache.ignite;version="[2.6,3)",org.apache.ignite.inter
+ nal.util.typedef.internal;version="[2.6,3)",org.apache.ignite.lang;vers
+ ion="[2.6,3)",org.apache.ignite.stream;version="[2.6,3)",org.eclipse.pa
+ ho.client.mqttv3;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

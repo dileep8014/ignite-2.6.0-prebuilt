@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="target/site/scaladocs">
+    <fileset dir="../../assembly/docfiles">
+      <include name="img/**"/>
+      <include name="*.js"/>
+    </fileset>
+  </copy>
+  <taskdef classname="org.apache.ignite.tools.ant.beautifier.GridJavadocAntTask" name="doctask"/>
+  <doctask css="dotted" verify="false" dir="target/site/scaladocs">
+    <include name="**/*.html"/>
+  </doctask>
+  <property name="footer">&lt;table style=&quot;padding: 0px 10px 10px 10px; width: 100%&quot; border=&quot;0&quot;&gt;
+                                        &lt;tr&gt;
+                                            &lt;td&gt;
+                                                &lt;nobr&gt;Ignite&amp;#153; - Scalar DSL, ver. &lt;strong&gt;2.6.0&lt;/strong&gt;&lt;/nobr&gt;
+                                                &lt;br&gt;
+                                                &lt;a target=_blank href=&quot;https://ignite.apache.org&quot;&gt;&lt;nobr&gt;2018 Copyright &amp;#169; Apache Software Foundation&lt;/nobr&gt;&lt;/a&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;/table&gt;</property>
+  <replace dir="target/site/scaladocs" value="${footer}" token="&lt;!--FOOTER--&gt;">
+    <include name="**/*.html"/>
+  </replace>
+  <replace dir="target/site/scaladocs">
+    <replacetoken>src=&quot;package.html&quot;</replacetoken>
+    <replacevalue>src=org/apache/ignite/scalar/scalar$.html</replacevalue>
+    <include name="**/index.html"/>
+  </replace>
+  <replace dir="target/site/scaladocs">
+    <replacetoken>location.replace(&quot;package.html&quot;)</replacetoken>
+    <replacevalue>location.replace(&quot;org/apache/ignite/scalar/scalar$.html&quot;)</replacevalue>
+    <include name="**/index.js"/>
+  </replace>
+  <replace dir="target/site/scaladocs">
+    <replacetoken>docs.scala-lang.org/overviews/scaladoc/usage.html#members</replacetoken>
+    <replacevalue>docs.scala-lang.org/overviews/scaladoc/interface.html</replacevalue>
+    <fileset dir="target/site/scaladocs"/>
+  </replace>
+  <replaceregexp flags="im" encoding="UTF-8" byline="true">
+    <regexp pattern="(&lt;dt&gt;Attributes&lt;/dt&gt;&lt;dd&gt;protected\[)&lt;a.+&gt;(.+)&lt;/a&gt;(\]\s+&lt;/dd&gt;)"/>
+    <substitution expression="\1\2\3"/>
+    <fileset dir="target/site/scaladocs"/>
+  </replaceregexp>
+  <zip basedir="target/site/scaladocs" destfile="target/ignite-scalar-2.6.0-javadoc.jar" encoding="UTF-8"/>
+</target>
+</project>

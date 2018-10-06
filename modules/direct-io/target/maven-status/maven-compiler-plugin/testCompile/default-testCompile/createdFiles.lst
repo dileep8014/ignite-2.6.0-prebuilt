@@ -1,0 +1,5 @@
+org/apache/ignite/testsuites/IgnitePdsNativeIoTestSuite.class
+org/apache/ignite/testsuites/IgnitePdsReplacementNativeIoTest.class
+org/apache/ignite/testsuites/IgnitePdsNativeIoTestSuite2.class
+org/apache/ignite/internal/processors/cache/persistence/IgniteNativeIoPdsRecoveryAfterFileCorruptionTest.class
+org/apache/ignite/internal/processors/cache/persistence/file/IgniteNativeIoWithNoPersistenceTest.class

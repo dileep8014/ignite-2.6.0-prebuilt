@@ -1,0 +1,2 @@
+org/apache/ignite/spi/discovery/tcp/ipfinder/cloud/TcpDiscoveryCloudIpFinderSelfTest.class
+org/apache/ignite/testsuites/IgniteCloudTestSuite.class

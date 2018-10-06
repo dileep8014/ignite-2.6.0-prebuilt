@@ -1,0 +1,2 @@
+org/apache/ignite/testsuites/IgniteKubernetesTestSuite.class
+org/apache/ignite/spi/discovery/tcp/ipfinder/kubernetes/TcpDiscoveryKubernetesIpFinderSelfTest.class

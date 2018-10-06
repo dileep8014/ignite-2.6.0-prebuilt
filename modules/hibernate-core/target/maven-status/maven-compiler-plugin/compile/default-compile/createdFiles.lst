@@ -1,0 +1,15 @@
+org/apache/ignite/cache/hibernate/HibernateNonStrictAccessStrategy$WriteContext.class
+org/apache/ignite/cache/hibernate/HibernateNonStrictAccessStrategy.class
+org/apache/ignite/cache/hibernate/HibernateReadWriteAccessStrategy.class
+org/apache/ignite/cache/hibernate/HibernateAccessStrategyAdapter$1.class
+org/apache/ignite/cache/hibernate/HibernateExceptionConverter.class
+org/apache/ignite/cache/hibernate/HibernateAccessStrategyFactory.class
+org/apache/ignite/cache/hibernate/HibernateNonStrictAccessStrategy$1.class
+org/apache/ignite/cache/hibernate/HibernateCacheProxy.class
+org/apache/ignite/cache/hibernate/HibernateReadWriteAccessStrategy$TxContext.class
+org/apache/ignite/cache/hibernate/HibernateAccessStrategyAdapter$ClearKeyCallable.class
+org/apache/ignite/cache/hibernate/HibernateKeyTransformer.class
+org/apache/ignite/cache/hibernate/HibernateAccessStrategyAdapter.class
+org/apache/ignite/cache/hibernate/HibernateTransactionalAccessStrategy.class
+org/apache/ignite/cache/hibernate/HibernateReadOnlyAccessStrategy.class
+org/apache/ignite/cache/hibernate/HibernateReadWriteAccessStrategy$1.class
